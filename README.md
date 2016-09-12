@@ -1,6 +1,9 @@
 # How-to request an app certificate
 
-1. Branch or fork the repo and create a new folder with your desired app ID and as content the CSR with the same name  (e.g. mail/mail.csr)
-2. Make a pull request
-3. Mention @LukasReschke
+To request a certificate you need to submit a Pull Request, this can be done completely via the GitHub web interface:
+
+1. Click "Create new file"
+2. Name the file "appname/appname.csr", whereas you have to replace appname with your CSR
+3. Submit and open the PR
+4. Mention @LukasReschke
 
