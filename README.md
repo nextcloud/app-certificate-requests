@@ -7,4 +7,4 @@ To request a certificate you need to submit a Pull Request, this can be done com
 3. Paste the contents of your CSR file into text area below
 3. Commit the file and open a new pull request
 4. Mention @MorrisJobke
-
+5. Nice to have: a link to the source code of the new app
