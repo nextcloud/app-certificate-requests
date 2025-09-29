@@ -1,0 +1,30 @@
+name: Validate CSR Common Name
+on:
+  pull_request:
+    paths:
+      - '**/*.csr'
+
+jobs:
+  validate-csr-cn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          sparse-checkout: |
+            *.csr
+          sparse-checkout-cone-mode: false
+
+      - name: Get changed CSR files
+        id: changed_csrs
+        run: |
+          files=$(git diff --name-only --diff-filter=AMR ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.csr$' | xargs)
+          echo "csr_files=$files" >> $GITHUB_OUTPUT
+
+      - name: Validate each CSR
+        if: ${{ steps.changed_csrs.outputs.csr_files }}
+        run: |
+          for filename in ${{ steps.changed_csrs.outputs.csr_files }}; do
+            openssl req -in $filename.csr -noout -subject | awk -v app_id="$filename" -F "=" '{ if ($3==app_id) { exit 0 } else { exit 1 }}'
+          done
