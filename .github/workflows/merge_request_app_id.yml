@@ -25,6 +25,8 @@ jobs:
       - name: Validate each CSR
         if: ${{ steps.changed_csrs.outputs.csr_files }}
         run: |
-          for filename in ${{ steps.changed_csrs.outputs.csr_files }}; do
-            openssl req -in $filename.csr -noout -subject | awk -v app_id="$filename" -F "=" '{ if ($3==app_id) { exit 0 } else { exit 1 }}'
+          for csr in ${{ steps.changed_csrs.outputs.csr_files }}; do
+            filename=$(echo $csr | awk -F "[/.]" '{ print $2 }')
+            subject=$(cat $csr | openssl req -noout -subject)
+            echo $subject | awk -v app_id="$filename" -F "[= ]" '{ if ($5==app_id) { exit 0 } else { exit 1 }}'
           done
