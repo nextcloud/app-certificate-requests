@@ -1,0 +1,68 @@
+name: Validate Folder Names
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+
+jobs:
+  validate-folders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 #v5
+
+      - name: Validate folder names
+        run: |
+          # Exceptions: folders that are allowed to have non-standard characters
+          exceptions=(
+            "nextcloud-aio"
+          )
+
+          # Find all directories excluding .git and .github
+          invalid_folders=()
+
+          # Get all directories in the root, excluding hidden directories
+          for dir in */; do
+            # Remove trailing slash
+            dirname="${dir%/}"
+
+            # Skip if not a directory or if it's a hidden directory
+            if [[ ! -d "$dirname" ]] || [[ "$dirname" == .* ]]; then
+              continue
+            fi
+
+            # Check if directory is in exceptions list
+            is_exception=false
+            for exception in "${exceptions[@]}"; do
+              if [[ "$dirname" == "$exception" ]]; then
+                is_exception=true
+                break
+              fi
+            done
+
+            # Skip if it's an exception
+            if [[ "$is_exception" == true ]]; then
+              continue
+            fi
+
+            # Check if directory name contains only letters, numbers, and underscores
+            if [[ ! "$dirname" =~ ^[a-z0-9_]+$ ]]; then
+              invalid_folders+=("$dirname")
+            fi
+          done
+
+          # Report results
+          if [ ${#invalid_folders[@]} -eq 0 ]; then
+            echo "✅ All folder names are valid (contain only letters, numbers, and underscores)"
+            exit 0
+          else
+            echo "❌ The following folder names contain invalid characters:"
+            echo "   (Only letters, numbers, and underscores are allowed)"
+            echo ""
+            for folder in "${invalid_folders[@]}"; do
+              echo "   - $folder"
+            done
+            exit 1
+          fi
