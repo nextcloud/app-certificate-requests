@@ -46,20 +46,8 @@ class CalendarWidget implements IWidget {
         return 'compact_calendar_widget';
     }
 
-    public function getName(): string {
-        return $this->l->t('Upcoming events');
-    }
-
     public function getTitle(): string {
         return $this->l->t('Upcoming events');
-    }
-
-    public function getDescription(): string {
-        return $this->l->t('Zeigt Kalendertermine in einer kompakten Übersicht an.');
-    }
-
-    public function getIconUrl(): string {
-        return Util::imagePath('core', 'places/calendar.svg');
     }
 
     public function getIconClass(): string {
