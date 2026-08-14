@@ -8,7 +8,12 @@
     <author mail="wtoedt@gmail.com" homepage="https://github.com/zomtec2311/logcleaner">Wolfgang Tödt</author>
     <namespace>CompactCalendarWidget</namespace>
     <category>dashboard</category>
+    <category>office</category>
+    <category>organization</category>
     <bugs>https://github.com/zomtec2311/compact_calendar_widget/issues</bugs>
+    <screenshot small-thumbnail="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png">https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png</screenshot>
     <website>https://github.com/zomtec2311/compact_calendar_widget</website>
 	<repository type="git">https://github.com/zomtec2311/compact_calendar_widget</repository>
     <dependencies>
