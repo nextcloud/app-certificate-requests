@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Kommande evenemang",
+"Week": "Vecka",
+"Month": "Månad",
+"Year": "År",
+"Back": "Tillbaka",
+"Forward": "Fram",
+"Current": "Nuvarande"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

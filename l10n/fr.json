@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Événements à venir",
+"Week": "Semaine",
+"Month": "Mois",
+"Year": "Année",
+"Back": "Dos",
+"Forward": "Avant",
+"Current": "Actuel"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

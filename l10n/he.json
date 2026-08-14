@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "אירועים קרובים",
+"Week": "שָׁבוּעַ",
+"Month": "חוֹדֶשׁ",
+"Year": "שָׁנָה",
+"Back": "בְּחֲזָרָה",
+"Forward": "קָדִימָה",
+"Current": "נוֹכְחִי"
+},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
+}

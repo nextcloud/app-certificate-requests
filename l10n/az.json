@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Qarşıdan gələn hadisələr",
+"Week": "Həftə",
+"Month": "ay",
+"Year": "il",
+"Back": "Geri",
+"Forward": "İrəli",
+"Current": "Cari"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

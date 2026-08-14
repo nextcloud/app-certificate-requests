@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Удахгүй болох үйл явдлууд",
+"Week": "Долоо хоног",
+"Month": "Сар",
+"Year": "Жил",
+"Back": "Буцах",
+"Forward": "Урагшаа",
+"Current": "Одоогийн"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

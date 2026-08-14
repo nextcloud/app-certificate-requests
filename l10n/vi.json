@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Sự kiện sắp tới",
+"Week": "Tuần",
+"Month": "Tháng",
+"Year": "Năm",
+"Back": "Mặt sau",
+"Forward": "Phía trước",
+"Current": "Hiện hành"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

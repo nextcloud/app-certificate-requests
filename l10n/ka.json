@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "მომავალი მოვლენები",
+"Week": "კვირა",
+"Month": "თვე",
+"Year": "წელიწადი",
+"Back": "უკან",
+"Forward": "წინ",
+"Current": "მიმდინარე"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

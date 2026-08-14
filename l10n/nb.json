@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Kommende arrangementer",
+"Week": "Uke",
+"Month": "Måned",
+"Year": "År",
+"Back": "Tilbake",
+"Forward": "Framover",
+"Current": "Nåværende"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Aankomende evenementen",
+"Week": "Week",
+"Month": "Maand",
+"Year": "Jaar",
+"Back": "Rug",
+"Forward": "Vooruit",
+"Current": "Huidig"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

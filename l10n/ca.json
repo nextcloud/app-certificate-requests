@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Pròxims esdeveniments",
+"Week": "Setmana",
+"Month": "Mes",
+"Year": "Any",
+"Back": "Enrere",
+"Forward": "Endavant",
+"Current": "Actual"
+},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
+}

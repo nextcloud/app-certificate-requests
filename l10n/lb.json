@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Upëff Evenementer",
+"Week": "Woch",
+"Month": "Mount",
+"Year": "Joer",
+"Back": "Zréck",
+"Forward": "Forward",
+"Current": "Aktuell"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

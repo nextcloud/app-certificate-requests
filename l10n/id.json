@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Acara mendatang",
+"Week": "Pekan",
+"Month": "Bulan",
+"Year": "Tahun",
+"Back": "Kembali",
+"Forward": "Maju",
+"Current": "Saat ini"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

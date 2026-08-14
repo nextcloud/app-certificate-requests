@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Предстоящи събития",
+"Week": "седмица",
+"Month": "месец",
+"Year": "година",
+"Back": "Назад",
+"Forward": "Напред",
+"Current": "Текущ"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

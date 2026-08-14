@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Առաջիկա իրադարձություններ",
+"Week": "Շաբաթ",
+"Month": "Ամիս",
+"Year": "Տարի",
+"Back": "Ետ",
+"Forward": "Առաջ",
+"Current": "Ընթացիկ"
+},"pluralForm" :"nplurals=2; plural=n > 1;"
+}

@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Eelseisvad sündmused",
+"Week": "Nädal",
+"Month": "Kuu",
+"Year": "aasta",
+"Back": "Tagasi",
+"Forward": "Edasi",
+"Current": "Praegune"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

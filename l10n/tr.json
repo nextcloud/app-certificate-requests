@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Yaklaşan etkinlikler",
+"Week": "Hafta",
+"Month": "Ay",
+"Year": "Yıl",
+"Back": "Geri",
+"Forward": "İleri",
+"Current": "Akım"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

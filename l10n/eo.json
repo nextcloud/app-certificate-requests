@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Venontaj eventoj",
+"Week": "Semajno",
+"Month": "Monato",
+"Year": "Jaro",
+"Back": "Reen",
+"Forward": "Antaŭen",
+"Current": "Nuna"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

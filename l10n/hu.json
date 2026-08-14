@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Közelgő események",
+"Week": "Hét",
+"Month": "Hónap",
+"Year": "Év",
+"Back": "Vissza",
+"Forward": "Előre",
+"Current": "Jelenlegi"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

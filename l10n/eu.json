@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Datozen ekitaldiak",
+"Week": "Astea",
+"Month": "Hilabetea",
+"Year": "Urtea",
+"Back": "Itzuli",
+"Forward": "Aurrera",
+"Current": "Oraingoa"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

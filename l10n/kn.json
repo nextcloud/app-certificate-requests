@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "ಮುಂಬರುವ ಘಟನೆಗಳು",
+"Week": "ವಾರ",
+"Month": "ತಿಂಗಳು",
+"Year": "ವರ್ಷ",
+"Back": "ಹಿಂದೆ",
+"Forward": "ಮುಂದಕ್ಕೆ",
+"Current": "ಪ್ರಸ್ತುತ"
+},"pluralForm" :"nplurals=2; plural=n > 1;"
+}

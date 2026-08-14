@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "即將舉行的活動",
+"Week": "星期",
+"Month": "月",
+"Year": "年",
+"Back": "後退",
+"Forward": "向前",
+"Current": "目前的"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

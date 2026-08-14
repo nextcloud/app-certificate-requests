@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "ព្រឹត្តិការណ៍នាពេលខាងមុខ",
+"Week": "សប្តាហ៍",
+"Month": "ខែ",
+"Year": "ឆ្នាំ",
+"Back": "ត្រឡប់មកវិញ",
+"Forward": "ទៅមុខ",
+"Current": "បច្ចុប្បន្ន"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

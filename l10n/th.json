@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "เหตุการณ์ที่จะเกิดขึ้น",
+"Week": "สัปดาห์",
+"Month": "เดือน",
+"Year": "ปี",
+"Back": "กลับ",
+"Forward": "ซึ่งไปข้างหน้า",
+"Current": "ปัจจุบัน"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

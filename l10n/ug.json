@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "ئالدىمىزدىكى ۋەقەلەر",
+"Week": "ھەپتە",
+"Month": "ئاي",
+"Year": "يىل",
+"Back": "قايتىش",
+"Forward": "ئالدىغا",
+"Current": "نۆۋەتتىكى"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}

@@ -1,0 +1,10 @@
+{ "translations": {
+    "Upcoming events": "Tulevia tapahtumia",
+"Week": "Viikko",
+"Month": "Kuukausi",
+"Year": "vuosi",
+"Back": "Takaisin",
+"Forward": "Eteenpäin",
+"Current": "Nykyinen"
+},"pluralForm" :"nplurals=2; plural=n != 1;"
+}
