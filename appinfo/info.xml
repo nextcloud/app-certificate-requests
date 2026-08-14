@@ -14,6 +14,7 @@
     <screenshot small-thumbnail="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png">https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png</screenshot>
 	<screenshot>https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png</screenshot>
     <website>https://github.com/zomtec2311/compact_calendar_widget</website>
 	<repository type="git">https://github.com/zomtec2311/compact_calendar_widget</repository>
     <dependencies>

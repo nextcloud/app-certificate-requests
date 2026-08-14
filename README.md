@@ -14,6 +14,8 @@ Displays upcoming appointments filtered by week, month, or year in the Nextcloud
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png)​
 
+![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png)​
+
 ## ⚙️ Usage
 
 - It is recommended to download or install this app directly from the [Nextcloud App store](https://apps.nextcloud.com/apps/compact_calendar_widget).
