@@ -63,7 +63,7 @@ class CalendarWidget implements IWidget {
     }
 
     public function getIconClass(): string {
-        return 'icon-calendar';
+        return 'icon-compact_calendar_widget';
     }
 
     public function getOrder(): int {

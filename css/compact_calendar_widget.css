@@ -1,4 +1,8 @@
 .panel--content{
-  /* height:max-content !important; */
-  /* width:max-content !important; */
+  height:max-content !important;
+}
+
+.icon-compact_calendar_widget {
+	background-image: url(./../img/compact_calendar_widget-dark.svg);
+	filter: var(--background-invert-if-dark);
 }
