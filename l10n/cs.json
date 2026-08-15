@@ -5,6 +5,11 @@
 "Year": "Rok",
 "Back": "Zadní",
 "Forward": "Vpřed",
-"Current": "Proud"
+"Current": "Proud",
+"Settings": "Nastavení",
+"Default view setting": "Výchozí nastavení zobrazení",
+"Choose how the widget should open when you visit the dashboard.": "Vyberte, jak se má widget otevřít, když navštívíte řídicí panel.",
+"Done": "Hotovo",
+"My Appointments": "Moje schůzky"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

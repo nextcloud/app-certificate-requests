@@ -36,20 +36,24 @@ use OCP\IDBConnection;
 use DateTime;
 use DateTimeZone;
 use Sabre\VObject\Reader;
+use OCP\Config\IUserConfig;
 
 class CalendarWidgetController extends Controller {
     private IUserSession $userSession;
     private IDBConnection $db;
+    private IUserConfig $userConfig;
 
     public function __construct(
         string $appName,
         IRequest $request,
         IUserSession $userSession,
-        IDBConnection $db
+        IDBConnection $db,
+        IUserConfig $userConfig,
     ) {
         parent::__construct($appName, $request);
         $this->userSession = $userSession;
         $this->db = $db;
+        $this->userConfig = $userConfig;
     }
 
     /**
@@ -177,5 +181,65 @@ class CalendarWidgetController extends Controller {
         });
 
         return new DataResponse($events);
+    }
+
+    /**
+     * @NoAdminRequired
+     * @NoCSRFRequired
+     */
+    public function getSetting(?string $key = null): DataResponse {
+        $user = $this->userSession->getUser();
+        if (!$user) {
+            return new DataResponse(['error' => 'Unauthorized'], 401);
+        }
+
+        // Falls $key nicht direkt gemappt wurde, aus den Query-Parametern holen
+        $key = $key ?? $this->request->getParam('key', 'defaultView');
+
+        $value = $this->userConfig->getValueString(
+            $user->getUID(),
+            $this->appName,
+            $key,
+            'month' // Sinnvoller Standard-Fallback
+        );
+
+        return new DataResponse([
+            'key' => $key,
+            'value' => $value
+        ]);
+    }
+
+    /**
+     * @NoAdminRequired
+     * @NoCSRFRequired
+     */
+    public function saveSetting(?string $key = null, ?string $value = null): DataResponse {
+        $user = $this->userSession->getUser();
+        if (!$user) {
+            return new DataResponse(['error' => 'Unauthorized'], 401);
+        }
+
+        // Liest verlässlich sowohl JSON-Payload als auch Formulardaten & URL-Parameter
+        $params = $this->request->getParams();
+
+        $key = $key ?? $params['key'] ?? null;
+        $value = $value ?? $params['value'] ?? null;
+
+        if (empty($key)) {
+            return new DataResponse(['error' => 'Missing parameter: key'], 400);
+        }
+
+        if ($value === null) {
+            return new DataResponse(['error' => 'Missing parameter: value'], 400);
+        }
+
+        $this->userConfig->setValueString(
+            $user->getUID(),
+            $this->appName,
+            (string)$key,
+            (string)$value
+        );
+
+        return new DataResponse(['success' => true]);
     }
 }

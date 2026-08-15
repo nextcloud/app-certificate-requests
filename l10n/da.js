@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "År",
 "Back": "Tilbage",
 "Forward": "Forward",
-"Current": "Strøm"
+"Current": "Strøm",
+"Settings": "Indstillinger",
+"Default view setting": "Standardvisningsindstilling",
+"Choose how the widget should open when you visit the dashboard.": "Vælg, hvordan widgetten skal åbne, når du besøger dashboardet.",
+"Done": "Færdig",
+"My Appointments": "Mine aftaler"
 },
 "nplurals=2; plural=n != 1;");

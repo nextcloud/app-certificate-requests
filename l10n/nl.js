@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Jaar",
 "Back": "Rug",
 "Forward": "Vooruit",
-"Current": "Huidig"
+"Current": "Huidig",
+"Settings": "Instellingen",
+"Default view setting": "Standaard weergave-instelling",
+"Choose how the widget should open when you visit the dashboard.": "Kies hoe de widget moet openen wanneer u het dashboard bezoekt.",
+"Done": "Klaar",
+"My Appointments": "Mijn afspraken"
 },
 "nplurals=2; plural=n != 1;");

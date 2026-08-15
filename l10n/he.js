@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "שָׁנָה",
 "Back": "בְּחֲזָרָה",
 "Forward": "קָדִימָה",
-"Current": "נוֹכְחִי"
+"Current": "נוֹכְחִי",
+"Settings": "הגדרות",
+"Default view setting": "הגדרת ברירת מחדל לתצוגה",
+"Choose how the widget should open when you visit the dashboard.": "בחר כיצד ייפתח הווידג'ט בעת ביקור בלוח המחוונים.",
+"Done": "נַעֲשָׂה",
+"My Appointments": "הפגישות שלי"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);");

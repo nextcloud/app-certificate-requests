@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Jaar",
 "Back": "Terug",
 "Forward": "Vorentoe",
-"Current": "Huidige"
+"Current": "Huidige",
+"Settings": "Instellings",
+"Default view setting": "Verstek aansig instelling",
+"Choose how the widget should open when you visit the dashboard.": "Kies hoe die legstuk moet oopmaak wanneer jy die kontroleskerm besoek.",
+"Done": "Klaar",
+"My Appointments": "My afsprake"
 },
 "nplurals=2; plural=n != 1;");

@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "година",
 "Back": "Назад",
 "Forward": "Напред",
-"Current": "Актуелно"
+"Current": "Актуелно",
+"Settings": "Поставки",
+"Default view setting": "Стандардна поставка за приказ",
+"Choose how the widget should open when you visit the dashboard.": "Изберете како виџетот да се отвора кога ќе ја посетите контролната табла.",
+"Done": "Готово",
+"My Appointments": "Мои состаноци"
 },
 "nplurals=2; plural=n % 10 != 1 || n % 100 == 11;");

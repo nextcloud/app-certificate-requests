@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "年",
 "Back": "后退",
 "Forward": "向前",
-"Current": "当前的"
+"Current": "当前的",
+"Settings": "设置",
+"Default view setting": "默认视图设置",
+"Choose how the widget should open when you visit the dashboard.": "选择当您访问仪表板时小部件应如何打开。",
+"Done": "完毕",
+"My Appointments": "我的预约"
 },
 "nplurals=1; plural=0;");

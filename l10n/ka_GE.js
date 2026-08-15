@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "წელიწადი",
 "Back": "უკან",
 "Forward": "წინ",
-"Current": "მიმდინარე"
+"Current": "მიმდინარე",
+"Settings": "პარამეტრები",
+"Default view setting": "ნახვის ნაგულისხმევი პარამეტრი",
+"Choose how the widget should open when you visit the dashboard.": "აირჩიეთ, თუ როგორ უნდა გაიხსნას ვიჯეტი საინფორმაციო დაფის მონახულებისას.",
+"Done": "შესრულებულია",
+"My Appointments": "ჩემი დანიშვნები"
 },
 "nplurals=2; plural=n != 1;");

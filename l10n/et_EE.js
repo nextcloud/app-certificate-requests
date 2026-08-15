@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "aasta",
 "Back": "Tagasi",
 "Forward": "Edasi",
-"Current": "Praegune"
+"Current": "Praegune",
+"Settings": "Seaded",
+"Default view setting": "Vaate vaikeseade",
+"Choose how the widget should open when you visit the dashboard.": "Valige, kuidas vidin armatuurlaua külastamisel avanema.",
+"Done": "Valmis",
+"My Appointments": "Minu kohtumised"
 },
 "nplurals=2; plural=n != 1;");

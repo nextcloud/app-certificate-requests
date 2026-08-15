@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Год",
 "Back": "Назад",
 "Forward": "Вперед",
-"Current": "Текущий"
+"Current": "Текущий",
+"Settings": "Настройки",
+"Default view setting": "Настройка просмотра по умолчанию",
+"Choose how the widget should open when you visit the dashboard.": "Выберите, как виджет должен открываться при посещении панели управления.",
+"Done": "Сделанный",
+"My Appointments": "Мои встречи"
 },
 "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

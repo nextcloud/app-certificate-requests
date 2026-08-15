@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "වසර",
 "Back": "ආපසු",
 "Forward": "ඉදිරියට",
-"Current": "වත්මන්"
+"Current": "වත්මන්",
+"Settings": "සැකසීම්",
+"Default view setting": "පෙරනිමි දර්ශන සැකසීම",
+"Choose how the widget should open when you visit the dashboard.": "ඔබ උපකරණ පුවරුවට පිවිසෙන විට විජට් විවෘත විය යුතු ආකාරය තෝරන්න.",
+"Done": "කළා",
+"My Appointments": "මගේ පත්වීම්"
 },
 "nplurals=2; plural=n > 1;");

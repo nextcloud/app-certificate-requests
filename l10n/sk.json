@@ -5,6 +5,11 @@
 "Year": "rok",
 "Back": "Späť",
 "Forward": "Vpred",
-"Current": "Aktuálne"
+"Current": "Aktuálne",
+"Settings": "Nastavenia",
+"Default view setting": "Predvolené nastavenie zobrazenia",
+"Choose how the widget should open when you visit the dashboard.": "Vyberte, ako sa má miniaplikácia otvárať pri návšteve hlavného panela.",
+"Done": "Hotovo",
+"My Appointments": "Moje stretnutia"
 },"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

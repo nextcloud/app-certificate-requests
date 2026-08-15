@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Année",
 "Back": "Dos",
 "Forward": "Avant",
-"Current": "Actuel"
+"Current": "Actuel",
+"Settings": "Paramètres",
+"Default view setting": "Paramètre d'affichage par défaut",
+"Choose how the widget should open when you visit the dashboard.": "Choisissez comment le widget doit s'ouvrir lorsque vous visitez le tableau de bord.",
+"Done": "Fait",
+"My Appointments": "Mes rendez-vous"
 },
 "nplurals=2; plural=(n != 1);");

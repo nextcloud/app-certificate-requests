@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Év",
 "Back": "Vissza",
 "Forward": "Előre",
-"Current": "Jelenlegi"
+"Current": "Jelenlegi",
+"Settings": "Beállítások elemre",
+"Default view setting": "Alapértelmezett nézetbeállítás",
+"Choose how the widget should open when you visit the dashboard.": "Válassza ki, hogyan nyíljon meg a widget, amikor meglátogatja az irányítópultot.",
+"Done": "Kész",
+"My Appointments": "Saját találkozók"
 },
 "nplurals=2; plural=n != 1;");

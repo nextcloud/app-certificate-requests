@@ -5,6 +5,11 @@
 "Year": "vuosi",
 "Back": "Takaisin",
 "Forward": "Eteenpäin",
-"Current": "Nykyinen"
+"Current": "Nykyinen",
+"Settings": "Asetukset",
+"Default view setting": "Näkymän oletusasetus",
+"Choose how the widget should open when you visit the dashboard.": "Valitse, miten widget avautuu, kun käyt kojelaudassa.",
+"Done": "Tehty",
+"My Appointments": "Omat tapaamiset"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }

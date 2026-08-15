@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Blwyddyn",
 "Back": "Yn ol",
 "Forward": "Ymlaen",
-"Current": "Cyfredol"
+"Current": "Cyfredol",
+"Settings": "Gosodiadau",
+"Default view setting": "Gosodiad gwedd ddiofyn",
+"Choose how the widget should open when you visit the dashboard.": "Dewiswch sut y dylai'r teclyn agor pan fyddwch chi'n ymweld â'r dangosfwrdd.",
+"Done": "Wedi'i wneud",
+"My Appointments": "Fy Apwyntiadau"
 },
 "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));");

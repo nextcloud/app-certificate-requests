@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "ವರ್ಷ",
 "Back": "ಹಿಂದೆ",
 "Forward": "ಮುಂದಕ್ಕೆ",
-"Current": "ಪ್ರಸ್ತುತ"
+"Current": "ಪ್ರಸ್ತುತ",
+"Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+"Default view setting": "ಡೀಫಾಲ್ಟ್ ವೀಕ್ಷಣೆ ಸೆಟ್ಟಿಂಗ್",
+"Choose how the widget should open when you visit the dashboard.": "ನೀವು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಭೇಟಿ ನೀಡಿದಾಗ ವಿಜೆಟ್ ಹೇಗೆ ತೆರೆಯಬೇಕು ಎಂಬುದನ್ನು ಆರಿಸಿ.",
+"Done": "ಮುಗಿದಿದೆ",
+"My Appointments": "ನನ್ನ ನೇಮಕಾತಿಗಳು"
 },
 "nplurals=2; plural=n > 1;");

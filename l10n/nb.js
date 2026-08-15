@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "År",
 "Back": "Tilbake",
 "Forward": "Framover",
-"Current": "Nåværende"
+"Current": "Nåværende",
+"Settings": "Innstillinger",
+"Default view setting": "Standard visningsinnstilling",
+"Choose how the widget should open when you visit the dashboard.": "Velg hvordan widgeten skal åpnes når du besøker dashbordet.",
+"Done": "Ferdig",
+"My Appointments": "Mine avtaler"
 },
 "nplurals=2; plural=n != 1;");

@@ -47,7 +47,7 @@ class CalendarWidget implements IWidget {
     }
 
     public function getTitle(): string {
-        return $this->l->t('Upcoming events');
+        return $this->l->t('My Appointments');
     }
 
     public function getIconClass(): string {

@@ -5,6 +5,11 @@
 "Year": "বছর",
 "Back": "ফিরে",
 "Forward": "ফরোয়ার্ড",
-"Current": "কারেন্ট"
+"Current": "কারেন্ট",
+"Settings": "সেটিংস",
+"Default view setting": "ডিফল্ট ভিউ সেটিং",
+"Choose how the widget should open when you visit the dashboard.": "আপনি যখন ড্যাশবোর্ডে যান তখন উইজেটটি কীভাবে খুলতে হবে তা চয়ন করুন৷",
+"Done": "সম্পন্ন",
+"My Appointments": "আমার অ্যাপয়েন্টমেন্ট"
 },"pluralForm" :"nplurals=2; plural=n > 1;"
 }

@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Rok",
 "Back": "Z powrotem",
 "Forward": "Do przodu",
-"Current": "Aktualny"
+"Current": "Aktualny",
+"Settings": "Ustawienia",
+"Default view setting": "Domyślne ustawienie widoku",
+"Choose how the widget should open when you visit the dashboard.": "Wybierz sposób otwierania widżetu podczas odwiedzania pulpitu nawigacyjnego.",
+"Done": "Zrobione",
+"My Appointments": "Moje spotkania"
 },
 "nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);");

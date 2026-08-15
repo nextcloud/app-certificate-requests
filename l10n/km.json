@@ -5,6 +5,11 @@
 "Year": "ឆ្នាំ",
 "Back": "ត្រឡប់មកវិញ",
 "Forward": "ទៅមុខ",
-"Current": "បច្ចុប្បន្ន"
+"Current": "បច្ចុប្បន្ន",
+"Settings": "ការកំណត់",
+"Default view setting": "ការកំណត់ទិដ្ឋភាពលំនាំដើម",
+"Choose how the widget should open when you visit the dashboard.": "ជ្រើសរើសរបៀបដែលធាតុក្រាហ្វិកគួរតែបើកនៅពេលអ្នកចូលទៅកាន់ផ្ទាំងគ្រប់គ្រង។",
+"Done": "រួចរាល់",
+"My Appointments": "ការណាត់ជួបរបស់ខ្ញុំ"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

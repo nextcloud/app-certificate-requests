@@ -7,6 +7,11 @@ OC.L10N.register(
 "Year": "Bliain",
 "Back": "Ar ais",
 "Forward": "Ar aghaidh",
-"Current": "Reatha"
+"Current": "Reatha",
+"Settings": "Socruithe",
+"Default view setting": "Socrú amhairc réamhshocraithe",
+"Choose how the widget should open when you visit the dashboard.": "Roghnaigh conas ba cheart don ghiuirléid a oscailt nuair a thugann tú cuairt ar an deais.",
+"Done": "Déanta",
+"My Appointments": "Mo Cheapacháin"
 },
 "nplurals=5; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)));");

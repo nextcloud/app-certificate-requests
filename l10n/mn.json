@@ -5,6 +5,11 @@
 "Year": "Жил",
 "Back": "Буцах",
 "Forward": "Урагшаа",
-"Current": "Одоогийн"
+"Current": "Одоогийн",
+"Settings": "Тохиргоо",
+"Default view setting": "Өгөгдмөл харагдах тохиргоо",
+"Choose how the widget should open when you visit the dashboard.": "Хяналтын самбарт зочлохдоо виджет хэрхэн нээгдэхийг сонгоно уу.",
+"Done": "Дууслаа",
+"My Appointments": "Миний уулзалтууд"
 },"pluralForm" :"nplurals=2; plural=n != 1;"
 }
