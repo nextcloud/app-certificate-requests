@@ -31,5 +31,7 @@ return [
             'url' => '/api/events',
             'verb' => 'GET',
         ],
+        ['name' => 'calendar_widget#getSetting', 'url' => '/api/setting', 'verb' => 'GET'],
+        ['name' => 'calendar_widget#saveSetting', 'url' => '/api/setting', 'verb' => 'POST'],
     ],
 ];
