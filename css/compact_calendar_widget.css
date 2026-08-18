@@ -273,6 +273,14 @@
 	font-weight: bold;
 }
 
+.year-day-cell.empty-slot {
+	background: transparent !important;
+	color: inherit !important;
+	box-shadow: none !important;
+	cursor: default !important;
+	pointer-events: none !important;
+}
+
 .day-cell.has-events,
 .year-day-cell.has-events {
 	font-weight: 800 !important;
@@ -299,7 +307,6 @@
 	background-color: #0079BA !important;
 }
 
-/* COLORFUL THEME (Ampel-System) */
 .compact-calendar-widget[data-theme="colorful"] .day-cell.events-low,
 .compact-calendar-widget[data-theme="colorful"] .year-day-cell.events-low {
 	background-color: #2ecc71 !important;
@@ -331,7 +338,6 @@
 	text-decoration: underline;
 }
 
-/* Aktive Zelle auf Mobile */
 .day-cell.is-active-mobile,
 .year-day-cell.is-active-mobile {
 	filter: brightness(1.3);
