@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Yaklaşan etkinlikler",
-"Week": "Hafta",
-"Month": "Ay",
-"Year": "Yıl",
-"Back": "Geri",
-"Forward": "İleri",
-"Current": "Akım",
-"Settings": "Ayarlar",
-"Default view setting": "Varsayılan görünüm ayarı",
-"Choose how the widget should open when you visit the dashboard.": "Kontrol panelini ziyaret ettiğinizde widget'ın nasıl açılması gerektiğini seçin.",
-"Done": "Tamamlamak",
-"My Appointments": "Randevularım"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Yaklaşan etkinlikler",
+        "Week": "Hafta",
+        "Month": "Ay",
+        "Year": "Yıl",
+        "Back": "Geri",
+        "Forward": "İleri",
+        "Current": "Akım",
+        "Settings": "Ayarlar",
+        "Default view setting": "Varsayılan görünüm ayarı",
+        "Choose how the widget should open when you visit the dashboard.": "Kontrol panelini ziyaret ettiğinizde widget'ın nasıl açılması gerektiğini seçin.",
+        "Done": "Tamamlamak",
+        "My Appointments": "Randevularım",
+        "Widget settings": "Widget ayarları",
+        "Customize the appearance and default behavior of the widget.": "Widget'ın görünümünü ve varsayılan davranışını özelleştirin.",
+        "Default view": "Varsayılan görünüm",
+        "Color scheme for the days with appointments": "Randevulu günler için renk şeması",
+        "standard": "standart",
+        "colorful": "renkli",
+        "Display options": "Görüntüleme seçenekleri",
+        "Show appointment counters": "Randevu sayaçlarını göster",
+        "on": "Açık",
+        "off": "kapalı"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

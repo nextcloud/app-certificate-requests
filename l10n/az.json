@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Qarşıdan gələn hadisələr",
-"Week": "Həftə",
-"Month": "ay",
-"Year": "il",
-"Back": "Geri",
-"Forward": "İrəli",
-"Current": "Cari",
-"Settings": "Parametrlər",
-"Default view setting": "Defolt görünüş ayarı",
-"Choose how the widget should open when you visit the dashboard.": "İdarə panelini ziyarət edərkən vidcetin necə açılacağını seçin.",
-"Done": "Bitdi",
-"My Appointments": "Mənim Randevularım"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Qarşıdan gələn hadisələr",
+        "Week": "Həftə",
+        "Month": "ay",
+        "Year": "il",
+        "Back": "Geri",
+        "Forward": "İrəli",
+        "Current": "Cari",
+        "Settings": "Parametrlər",
+        "Default view setting": "Defolt görünüş ayarı",
+        "Choose how the widget should open when you visit the dashboard.": "İdarə panelini ziyarət edərkən vidcetin necə açılacağını seçin.",
+        "Done": "Bitdi",
+        "My Appointments": "Mənim Randevularım",
+        "Widget settings": "Vidcet parametrləri",
+        "Customize the appearance and default behavior of the widget.": "Vidcetin görünüşünü və standart davranışını fərdiləşdirin.",
+        "Default view": "Defolt görünüş",
+        "Color scheme for the days with appointments": "Randevu ilə günlər üçün rəng sxemi",
+        "standard": "standart",
+        "colorful": "rəngarəng",
+        "Display options": "Ekran seçimləri",
+        "Show appointment counters": "Görüş sayğaclarını göstərin",
+        "on": "haqqında",
+        "off": "off"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

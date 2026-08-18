@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Sự kiện sắp tới",
-"Week": "Tuần",
-"Month": "Tháng",
-"Year": "Năm",
-"Back": "Mặt sau",
-"Forward": "Phía trước",
-"Current": "Hiện hành",
-"Settings": "Cài đặt",
-"Default view setting": "Cài đặt chế độ xem mặc định",
-"Choose how the widget should open when you visit the dashboard.": "Chọn cách tiện ích sẽ mở khi bạn truy cập trang tổng quan.",
-"Done": "Xong",
-"My Appointments": "Cuộc hẹn của tôi"
-},"pluralForm" :"nplurals=1; plural=0;"
+{
+    "translations": {
+        "Upcoming events": "Sự kiện sắp tới",
+        "Week": "Tuần",
+        "Month": "Tháng",
+        "Year": "Năm",
+        "Back": "Mặt sau",
+        "Forward": "Phía trước",
+        "Current": "Hiện hành",
+        "Settings": "Cài đặt",
+        "Default view setting": "Cài đặt chế độ xem mặc định",
+        "Choose how the widget should open when you visit the dashboard.": "Chọn cách tiện ích sẽ mở khi bạn truy cập trang tổng quan.",
+        "Done": "Xong",
+        "My Appointments": "Cuộc hẹn của tôi",
+        "Widget settings": "Cài đặt tiện ích",
+        "Customize the appearance and default behavior of the widget.": "Tùy chỉnh giao diện và hành vi mặc định của tiện ích.",
+        "Default view": "Chế độ xem mặc định",
+        "Color scheme for the days with appointments": "Phối màu cho những ngày có hẹn",
+        "standard": "tiêu chuẩn",
+        "colorful": "đầy màu sắc",
+        "Display options": "Tùy chọn hiển thị",
+        "Show appointment counters": "Hiển thị quầy hẹn",
+        "on": "TRÊN",
+        "off": "tắt"
+    },
+    "pluralForm": "nplurals=1; plural=0;"
 }

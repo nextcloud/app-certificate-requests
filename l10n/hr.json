@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Nadolazeći događaji",
-"Week": "Tjedan",
-"Month": "Mjesec",
-"Year": "Godina",
-"Back": "Nazad",
-"Forward": "Naprijed",
-"Current": "Trenutni",
-"Settings": "postavke",
-"Default view setting": "Zadana postavka prikaza",
-"Choose how the widget should open when you visit the dashboard.": "Odaberite kako bi se widget trebao otvarati kada posjetite nadzornu ploču.",
-"Done": "Gotovo",
-"My Appointments": "Moji termini"
-},"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Nadolazeći događaji",
+        "Week": "Tjedan",
+        "Month": "Mjesec",
+        "Year": "Godina",
+        "Back": "Nazad",
+        "Forward": "Naprijed",
+        "Current": "Trenutni",
+        "Settings": "postavke",
+        "Default view setting": "Zadana postavka prikaza",
+        "Choose how the widget should open when you visit the dashboard.": "Odaberite kako bi se widget trebao otvarati kada posjetite nadzornu ploču.",
+        "Done": "Gotovo",
+        "My Appointments": "Moji termini",
+        "Widget settings": "Postavke widgeta",
+        "Customize the appearance and default behavior of the widget.": "Prilagodite izgled i zadano ponašanje widgeta.",
+        "Default view": "Zadani prikaz",
+        "Color scheme for the days with appointments": "Raspored boja za dane s terminima",
+        "standard": "standard",
+        "colorful": "šarenilo",
+        "Display options": "Mogućnosti prikaza",
+        "Show appointment counters": "Prikaži brojače termina",
+        "on": "na",
+        "off": "isključeno"
+    },
+    "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Aankomende evenementen",
-"Week": "Week",
-"Month": "Maand",
-"Year": "Jaar",
-"Back": "Rug",
-"Forward": "Vooruit",
-"Current": "Huidig",
-"Settings": "Instellingen",
-"Default view setting": "Standaard weergave-instelling",
-"Choose how the widget should open when you visit the dashboard.": "Kies hoe de widget moet openen wanneer u het dashboard bezoekt.",
-"Done": "Klaar",
-"My Appointments": "Mijn afspraken"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Aankomende evenementen",
+        "Week": "Week",
+        "Month": "Maand",
+        "Year": "Jaar",
+        "Back": "Rug",
+        "Forward": "Vooruit",
+        "Current": "Huidig",
+        "Settings": "Instellingen",
+        "Default view setting": "Standaard weergave-instelling",
+        "Choose how the widget should open when you visit the dashboard.": "Kies hoe de widget moet openen wanneer u het dashboard bezoekt.",
+        "Done": "Klaar",
+        "My Appointments": "Mijn afspraken",
+        "Widget settings": "Widget-instellingen",
+        "Customize the appearance and default behavior of the widget.": "Pas het uiterlijk en het standaardgedrag van de widget aan.",
+        "Default view": "Standaardweergave",
+        "Color scheme for the days with appointments": "Kleurenschema voor de dagen met afspraken",
+        "standard": "standaard",
+        "colorful": "kleurrijk",
+        "Display options": "Weergaveopties",
+        "Show appointment counters": "Toon afsprakentellers",
+        "on": "op",
+        "off": "uit"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

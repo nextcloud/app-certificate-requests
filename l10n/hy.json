@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Առաջիկա իրադարձություններ",
-"Week": "Շաբաթ",
-"Month": "Ամիս",
-"Year": "Տարի",
-"Back": "Ետ",
-"Forward": "Առաջ",
-"Current": "Ընթացիկ",
-"Settings": "Կարգավորումներ",
-"Default view setting": "Դիտման կանխադրված կարգավորում",
-"Choose how the widget should open when you visit the dashboard.": "Ընտրեք, թե ինչպես պետք է բացվի վիջեթը, երբ այցելեք վահանակ:",
-"Done": "Կատարված է",
-"My Appointments": "Իմ նշանակումները"
-},"pluralForm" :"nplurals=2; plural=n > 1;"
+{
+    "translations": {
+        "Upcoming events": "Առաջիկա իրադարձություններ",
+        "Week": "Շաբաթ",
+        "Month": "Ամիս",
+        "Year": "Տարի",
+        "Back": "Ետ",
+        "Forward": "Առաջ",
+        "Current": "Ընթացիկ",
+        "Settings": "Կարգավորումներ",
+        "Default view setting": "Դիտման կանխադրված կարգավորում",
+        "Choose how the widget should open when you visit the dashboard.": "Ընտրեք, թե ինչպես պետք է բացվի վիջեթը, երբ այցելեք վահանակ:",
+        "Done": "Կատարված է",
+        "My Appointments": "Իմ նշանակումները",
+        "Widget settings": "Վիջեթի կարգավորումներ",
+        "Customize the appearance and default behavior of the widget.": "Անհատականացրեք վիջեթի տեսքը և լռելյայն վարքը:",
+        "Default view": "Կանխադրված դիտում",
+        "Color scheme for the days with appointments": "Գունային սխեման հանդիպումներով օրերի համար",
+        "standard": "ստանդարտ",
+        "colorful": "գունեղ",
+        "Display options": "Ցուցադրման ընտրանքներ",
+        "Show appointment counters": "Ցույց տալ նշանակման հաշվիչները",
+        "on": "վրա",
+        "off": "անջատված է"
+    },
+    "pluralForm": "nplurals=2; plural=n > 1;"
 }

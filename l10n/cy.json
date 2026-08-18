@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Digwyddiadau i ddod",
-"Week": "Wythnos",
-"Month": "Mis",
-"Year": "Blwyddyn",
-"Back": "Yn ol",
-"Forward": "Ymlaen",
-"Current": "Cyfredol",
-"Settings": "Gosodiadau",
-"Default view setting": "Gosodiad gwedd ddiofyn",
-"Choose how the widget should open when you visit the dashboard.": "Dewiswch sut y dylai'r teclyn agor pan fyddwch chi'n ymweld â'r dangosfwrdd.",
-"Done": "Wedi'i wneud",
-"My Appointments": "Fy Apwyntiadau"
-},"pluralForm" :"nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));"
+{
+    "translations": {
+        "Upcoming events": "Digwyddiadau i ddod",
+        "Week": "Wythnos",
+        "Month": "Mis",
+        "Year": "Blwyddyn",
+        "Back": "Yn ol",
+        "Forward": "Ymlaen",
+        "Current": "Cyfredol",
+        "Settings": "Gosodiadau",
+        "Default view setting": "Gosodiad gwedd ddiofyn",
+        "Choose how the widget should open when you visit the dashboard.": "Dewiswch sut y dylai'r teclyn agor pan fyddwch chi'n ymweld â'r dangosfwrdd.",
+        "Done": "Wedi'i wneud",
+        "My Appointments": "Fy Apwyntiadau",
+        "Widget settings": "Gosodiadau teclyn",
+        "Customize the appearance and default behavior of the widget.": "Addasu ymddangosiad ac ymddygiad diofyn y teclyn.",
+        "Default view": "Gwedd ddiofyn",
+        "Color scheme for the days with appointments": "Cynllun lliw ar gyfer y dyddiau gydag apwyntiadau",
+        "standard": "safonol",
+        "colorful": "lliwgar",
+        "Display options": "Arddangos opsiynau",
+        "Show appointment counters": "Dangos cownteri apwyntiadau",
+        "on": "ymlaen",
+        "off": "i ffwrdd"
+    },
+    "pluralForm": "nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));"
 }

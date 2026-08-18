@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Gaidāmie pasākumi",
-"Week": "nedēļa",
-"Month": "Mēnesis",
-"Year": "gads",
-"Back": "Atpakaļ",
-"Forward": "Uz priekšu",
-"Current": "Pašreizējais",
-"Settings": "Iestatījumi",
-"Default view setting": "Noklusējuma skata iestatījums",
-"Choose how the widget should open when you visit the dashboard.": "Izvēlieties, kā logrīkam jāatver, kad apmeklējat informācijas paneli.",
-"Done": "Gatavs",
-"My Appointments": "Manas tikšanās"
-},"pluralForm" :"nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Gaidāmie pasākumi",
+        "Week": "nedēļa",
+        "Month": "Mēnesis",
+        "Year": "gads",
+        "Back": "Atpakaļ",
+        "Forward": "Uz priekšu",
+        "Current": "Pašreizējais",
+        "Settings": "Iestatījumi",
+        "Default view setting": "Noklusējuma skata iestatījums",
+        "Choose how the widget should open when you visit the dashboard.": "Izvēlieties, kā logrīkam jāatver, kad apmeklējat informācijas paneli.",
+        "Done": "Gatavs",
+        "My Appointments": "Manas tikšanās",
+        "Widget settings": "Logrīku iestatījumi",
+        "Customize the appearance and default behavior of the widget.": "Pielāgojiet logrīka izskatu un noklusējuma darbību.",
+        "Default view": "Noklusējuma skats",
+        "Color scheme for the days with appointments": "Krāsu shēma dienām ar tikšanos",
+        "standard": "standarta",
+        "colorful": "krāsains",
+        "Display options": "Displeja opcijas",
+        "Show appointment counters": "Rādīt tikšanās skaitītājus",
+        "on": "ieslēgts",
+        "off": "izslēgts"
+    },
+    "pluralForm": "nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);"
 }

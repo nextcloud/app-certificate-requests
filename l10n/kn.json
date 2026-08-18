@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "ಮುಂಬರುವ ಘಟನೆಗಳು",
-"Week": "ವಾರ",
-"Month": "ತಿಂಗಳು",
-"Year": "ವರ್ಷ",
-"Back": "ಹಿಂದೆ",
-"Forward": "ಮುಂದಕ್ಕೆ",
-"Current": "ಪ್ರಸ್ತುತ",
-"Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
-"Default view setting": "ಡೀಫಾಲ್ಟ್ ವೀಕ್ಷಣೆ ಸೆಟ್ಟಿಂಗ್",
-"Choose how the widget should open when you visit the dashboard.": "ನೀವು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಭೇಟಿ ನೀಡಿದಾಗ ವಿಜೆಟ್ ಹೇಗೆ ತೆರೆಯಬೇಕು ಎಂಬುದನ್ನು ಆರಿಸಿ.",
-"Done": "ಮುಗಿದಿದೆ",
-"My Appointments": "ನನ್ನ ನೇಮಕಾತಿಗಳು"
-},"pluralForm" :"nplurals=2; plural=n > 1;"
+{
+    "translations": {
+        "Upcoming events": "ಮುಂಬರುವ ಘಟನೆಗಳು",
+        "Week": "ವಾರ",
+        "Month": "ತಿಂಗಳು",
+        "Year": "ವರ್ಷ",
+        "Back": "ಹಿಂದೆ",
+        "Forward": "ಮುಂದಕ್ಕೆ",
+        "Current": "ಪ್ರಸ್ತುತ",
+        "Settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "Default view setting": "ಡೀಫಾಲ್ಟ್ ವೀಕ್ಷಣೆ ಸೆಟ್ಟಿಂಗ್",
+        "Choose how the widget should open when you visit the dashboard.": "ನೀವು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಭೇಟಿ ನೀಡಿದಾಗ ವಿಜೆಟ್ ಹೇಗೆ ತೆರೆಯಬೇಕು ಎಂಬುದನ್ನು ಆರಿಸಿ.",
+        "Done": "ಮುಗಿದಿದೆ",
+        "My Appointments": "ನನ್ನ ನೇಮಕಾತಿಗಳು",
+        "Widget settings": "ವಿಜೆಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+        "Customize the appearance and default behavior of the widget.": "ವಿಜೆಟ್‌ನ ನೋಟ ಮತ್ತು ಡೀಫಾಲ್ಟ್ ನಡವಳಿಕೆಯನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.",
+        "Default view": "ಡೀಫಾಲ್ಟ್ ವೀಕ್ಷಣೆ",
+        "Color scheme for the days with appointments": "ನೇಮಕಾತಿಗಳೊಂದಿಗೆ ದಿನಗಳಿಗೆ ಬಣ್ಣದ ಯೋಜನೆ",
+        "standard": "ಪ್ರಮಾಣಿತ",
+        "colorful": "ವರ್ಣರಂಜಿತ",
+        "Display options": "ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು",
+        "Show appointment counters": "ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಕೌಂಟರ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+        "on": "ಮೇಲೆ",
+        "off": "ಆಫ್"
+    },
+    "pluralForm": "nplurals=2; plural=n > 1;"
 }

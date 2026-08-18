@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Événements à venir",
-"Week": "Semaine",
-"Month": "Mois",
-"Year": "Année",
-"Back": "Dos",
-"Forward": "Avant",
-"Current": "Actuel",
-"Settings": "Paramètres",
-"Default view setting": "Paramètre d'affichage par défaut",
-"Choose how the widget should open when you visit the dashboard.": "Choisissez comment le widget doit s'ouvrir lorsque vous visitez le tableau de bord.",
-"Done": "Fait",
-"My Appointments": "Mes rendez-vous"
-},"pluralForm" :"nplurals=2; plural=(n != 1);"
+{
+    "translations": {
+        "Upcoming events": "Événements à venir",
+        "Week": "Semaine",
+        "Month": "Mois",
+        "Year": "Année",
+        "Back": "Dos",
+        "Forward": "Avant",
+        "Current": "Actuel",
+        "Settings": "Paramètres",
+        "Default view setting": "Paramètre d'affichage par défaut",
+        "Choose how the widget should open when you visit the dashboard.": "Choisissez comment le widget doit s'ouvrir lorsque vous visitez le tableau de bord.",
+        "Done": "Fait",
+        "My Appointments": "Mes rendez-vous",
+        "Widget settings": "Paramètres des widgets",
+        "Customize the appearance and default behavior of the widget.": "Personnalisez l'apparence et le comportement par défaut du widget.",
+        "Default view": "Vue par défaut",
+        "Color scheme for the days with appointments": "Schéma de couleurs pour les jours avec rendez-vous",
+        "standard": "standard",
+        "colorful": "coloré",
+        "Display options": "Options d'affichage",
+        "Show appointment counters": "Afficher les compteurs de rendez-vous",
+        "on": "sur",
+        "off": "désactivé"
+    },
+    "pluralForm": "nplurals=2; plural=(n != 1);"
 }

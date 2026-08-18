@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Найближчі події",
-"Week": "тиждень",
-"Month": "місяць",
-"Year": "рік",
-"Back": "Назад",
-"Forward": "вперед",
-"Current": "поточний",
-"Settings": "Налаштування",
-"Default view setting": "Налаштування перегляду за замовчуванням",
-"Choose how the widget should open when you visit the dashboard.": "Виберіть спосіб відкривання віджета під час відвідування інформаційної панелі.",
-"Done": "Готово",
-"My Appointments": "Мої зустрічі"
-},"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Найближчі події",
+        "Week": "тиждень",
+        "Month": "місяць",
+        "Year": "рік",
+        "Back": "Назад",
+        "Forward": "вперед",
+        "Current": "поточний",
+        "Settings": "Налаштування",
+        "Default view setting": "Налаштування перегляду за замовчуванням",
+        "Choose how the widget should open when you visit the dashboard.": "Виберіть спосіб відкривання віджета під час відвідування інформаційної панелі.",
+        "Done": "Готово",
+        "My Appointments": "Мої зустрічі",
+        "Widget settings": "Налаштування віджета",
+        "Customize the appearance and default behavior of the widget.": "Налаштуйте зовнішній вигляд і типову поведінку віджета.",
+        "Default view": "Перегляд за замовчуванням",
+        "Color scheme for the days with appointments": "Кольорова схема днів із записами",
+        "standard": "стандарт",
+        "colorful": "барвистий",
+        "Display options": "Параметри відображення",
+        "Show appointment counters": "Показати лічильники зустрічей",
+        "on": "на",
+        "off": "вимкнено"
+    },
+    "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

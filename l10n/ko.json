@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "다가오는 이벤트",
-"Week": "주",
-"Month": "월",
-"Year": "년도",
-"Back": "뒤쪽에",
-"Forward": "앞으로",
-"Current": "현재의",
-"Settings": "설정",
-"Default view setting": "기본 보기 설정",
-"Choose how the widget should open when you visit the dashboard.": "대시보드를 방문할 때 위젯이 열리는 방식을 선택하세요.",
-"Done": "완료",
-"My Appointments": "내 약속"
-},"pluralForm" :"nplurals=1; plural=0;"
+{
+    "translations": {
+        "Upcoming events": "다가오는 이벤트",
+        "Week": "주",
+        "Month": "월",
+        "Year": "년도",
+        "Back": "뒤쪽에",
+        "Forward": "앞으로",
+        "Current": "현재의",
+        "Settings": "설정",
+        "Default view setting": "기본 보기 설정",
+        "Choose how the widget should open when you visit the dashboard.": "대시보드를 방문할 때 위젯이 열리는 방식을 선택하세요.",
+        "Done": "완료",
+        "My Appointments": "내 약속",
+        "Widget settings": "위젯 설정",
+        "Customize the appearance and default behavior of the widget.": "위젯의 모양과 기본 동작을 사용자 정의합니다.",
+        "Default view": "기본 보기",
+        "Color scheme for the days with appointments": "약속이 있는 날의 색 구성표",
+        "standard": "기준",
+        "colorful": "화려한",
+        "Display options": "디스플레이 옵션",
+        "Show appointment counters": "약속 카운터 표시",
+        "on": "~에",
+        "off": "끄다"
+    },
+    "pluralForm": "nplurals=1; plural=0;"
 }

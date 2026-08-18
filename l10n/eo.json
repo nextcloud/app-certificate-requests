@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Venontaj eventoj",
-"Week": "Semajno",
-"Month": "Monato",
-"Year": "Jaro",
-"Back": "Reen",
-"Forward": "Antaŭen",
-"Current": "Nuna",
-"Settings": "Agordoj",
-"Default view setting": "Defaŭlta vido-agordo",
-"Choose how the widget should open when you visit the dashboard.": "Elektu kiel la fenestraĵo devus malfermiĝi kiam vi vizitas la panelon.",
-"Done": "Farita",
-"My Appointments": "Miaj Nomumoj"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Venontaj eventoj",
+        "Week": "Semajno",
+        "Month": "Monato",
+        "Year": "Jaro",
+        "Back": "Reen",
+        "Forward": "Antaŭen",
+        "Current": "Nuna",
+        "Settings": "Agordoj",
+        "Default view setting": "Defaŭlta vido-agordo",
+        "Choose how the widget should open when you visit the dashboard.": "Elektu kiel la fenestraĵo devus malfermiĝi kiam vi vizitas la panelon.",
+        "Done": "Farita",
+        "My Appointments": "Miaj Nomumoj",
+        "Widget settings": "Agordoj de fenestraĵoj",
+        "Customize the appearance and default behavior of the widget.": "Agordu la aspekton kaj defaŭltan konduton de la fenestraĵo.",
+        "Default view": "Defaŭlta vido",
+        "Color scheme for the days with appointments": "Kolorskemo por la tagoj kun rendevuoj",
+        "standard": "normo",
+        "colorful": "bunta",
+        "Display options": "Montraj opcioj",
+        "Show appointment counters": "Montru rendevuajn nombrilojn",
+        "on": "on",
+        "off": "for"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

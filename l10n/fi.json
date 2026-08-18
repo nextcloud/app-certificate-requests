@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Tulevia tapahtumia",
-"Week": "Viikko",
-"Month": "Kuukausi",
-"Year": "vuosi",
-"Back": "Takaisin",
-"Forward": "Eteenpäin",
-"Current": "Nykyinen",
-"Settings": "Asetukset",
-"Default view setting": "Näkymän oletusasetus",
-"Choose how the widget should open when you visit the dashboard.": "Valitse, miten widget avautuu, kun käyt kojelaudassa.",
-"Done": "Tehty",
-"My Appointments": "Omat tapaamiset"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Tulevia tapahtumia",
+        "Week": "Viikko",
+        "Month": "Kuukausi",
+        "Year": "vuosi",
+        "Back": "Takaisin",
+        "Forward": "Eteenpäin",
+        "Current": "Nykyinen",
+        "Settings": "Asetukset",
+        "Default view setting": "Näkymän oletusasetus",
+        "Choose how the widget should open when you visit the dashboard.": "Valitse, miten widget avautuu, kun käyt kojelaudassa.",
+        "Done": "Tehty",
+        "My Appointments": "Omat tapaamiset",
+        "Widget settings": "Widgetin asetukset",
+        "Customize the appearance and default behavior of the widget.": "Mukauta widgetin ulkoasua ja oletustoimintaa.",
+        "Default view": "Oletusnäkymä",
+        "Color scheme for the days with appointments": "Värimaailma päiville ajanvarauksella",
+        "standard": "standardi",
+        "colorful": "värikäs",
+        "Display options": "Näyttövaihtoehdot",
+        "Show appointment counters": "Näytä tapaamislaskurit",
+        "on": "päällä",
+        "off": "pois"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

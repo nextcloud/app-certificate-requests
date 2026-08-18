@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Nadcházející události",
-"Week": "Týden",
-"Month": "Měsíc",
-"Year": "Rok",
-"Back": "Zadní",
-"Forward": "Vpřed",
-"Current": "Proud",
-"Settings": "Nastavení",
-"Default view setting": "Výchozí nastavení zobrazení",
-"Choose how the widget should open when you visit the dashboard.": "Vyberte, jak se má widget otevřít, když navštívíte řídicí panel.",
-"Done": "Hotovo",
-"My Appointments": "Moje schůzky"
-},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Nadcházející události",
+        "Week": "Týden",
+        "Month": "Měsíc",
+        "Year": "Rok",
+        "Back": "Zadní",
+        "Forward": "Vpřed",
+        "Current": "Proud",
+        "Settings": "Nastavení",
+        "Default view setting": "Výchozí nastavení zobrazení",
+        "Choose how the widget should open when you visit the dashboard.": "Vyberte, jak se má widget otevřít, když navštívíte řídicí panel.",
+        "Done": "Hotovo",
+        "My Appointments": "Moje schůzky",
+        "Widget settings": "Nastavení widgetů",
+        "Customize the appearance and default behavior of the widget.": "Přizpůsobte vzhled a výchozí chování widgetu.",
+        "Default view": "Výchozí zobrazení",
+        "Color scheme for the days with appointments": "Barevné schéma pro dny s termíny",
+        "standard": "norma",
+        "colorful": "barvitý",
+        "Display options": "Možnosti zobrazení",
+        "Show appointment counters": "Zobrazit počítadla schůzek",
+        "on": "na",
+        "off": "vypnuto"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

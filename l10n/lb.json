@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Upëff Evenementer",
-"Week": "Woch",
-"Month": "Mount",
-"Year": "Joer",
-"Back": "Zréck",
-"Forward": "Forward",
-"Current": "Aktuell",
-"Settings": "Astellungen",
-"Default view setting": "Standard Vue Astellung",
-"Choose how the widget should open when you visit the dashboard.": "Wielt wéi de Widget soll opmaachen wann Dir den Dashboard besicht.",
-"Done": "Gemaach",
-"My Appointments": "Meng Rendez-vous"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Upëff Evenementer",
+        "Week": "Woch",
+        "Month": "Mount",
+        "Year": "Joer",
+        "Back": "Zréck",
+        "Forward": "Forward",
+        "Current": "Aktuell",
+        "Settings": "Astellungen",
+        "Default view setting": "Standard Vue Astellung",
+        "Choose how the widget should open when you visit the dashboard.": "Wielt wéi de Widget soll opmaachen wann Dir den Dashboard besicht.",
+        "Done": "Gemaach",
+        "My Appointments": "Meng Rendez-vous",
+        "Widget settings": "Widget Astellunge",
+        "Customize the appearance and default behavior of the widget.": "Passt d'Erscheinung an d'Standardverhalen vum Widget un.",
+        "Default view": "Standard Vue",
+        "Color scheme for the days with appointments": "Faarfschema fir d'Deeg mat Rendez-vousen",
+        "standard": "Standard",
+        "colorful": "faarweg",
+        "Display options": "Affichage Optiounen",
+        "Show appointment counters": "Show Rendez counters",
+        "on": "op",
+        "off": "aus"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

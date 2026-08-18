@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Közelgő események",
-"Week": "Hét",
-"Month": "Hónap",
-"Year": "Év",
-"Back": "Vissza",
-"Forward": "Előre",
-"Current": "Jelenlegi",
-"Settings": "Beállítások elemre",
-"Default view setting": "Alapértelmezett nézetbeállítás",
-"Choose how the widget should open when you visit the dashboard.": "Válassza ki, hogyan nyíljon meg a widget, amikor meglátogatja az irányítópultot.",
-"Done": "Kész",
-"My Appointments": "Saját találkozók"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Közelgő események",
+        "Week": "Hét",
+        "Month": "Hónap",
+        "Year": "Év",
+        "Back": "Vissza",
+        "Forward": "Előre",
+        "Current": "Jelenlegi",
+        "Settings": "Beállítások elemre",
+        "Default view setting": "Alapértelmezett nézetbeállítás",
+        "Choose how the widget should open when you visit the dashboard.": "Válassza ki, hogyan nyíljon meg a widget, amikor meglátogatja az irányítópultot.",
+        "Done": "Kész",
+        "My Appointments": "Saját találkozók",
+        "Widget settings": "Widget beállítások",
+        "Customize the appearance and default behavior of the widget.": "Testreszabhatja a widget megjelenését és alapértelmezett viselkedését.",
+        "Default view": "Alapértelmezett nézet",
+        "Color scheme for the days with appointments": "Színséma a napokra időpont egyeztetéssel",
+        "standard": "standard",
+        "colorful": "színes",
+        "Display options": "Megjelenítési lehetőségek",
+        "Show appointment counters": "Időpontszámlálók megjelenítése",
+        "on": "-on",
+        "off": "le"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Предстоящие события",
-"Week": "Неделя",
-"Month": "Месяц",
-"Year": "Год",
-"Back": "Назад",
-"Forward": "Вперед",
-"Current": "Текущий",
-"Settings": "Настройки",
-"Default view setting": "Настройка просмотра по умолчанию",
-"Choose how the widget should open when you visit the dashboard.": "Выберите, как виджет должен открываться при посещении панели управления.",
-"Done": "Сделанный",
-"My Appointments": "Мои встречи"
-},"pluralForm" :"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Предстоящие события",
+        "Week": "Неделя",
+        "Month": "Месяц",
+        "Year": "Год",
+        "Back": "Назад",
+        "Forward": "Вперед",
+        "Current": "Текущий",
+        "Settings": "Настройки",
+        "Default view setting": "Настройка просмотра по умолчанию",
+        "Choose how the widget should open when you visit the dashboard.": "Выберите, как виджет должен открываться при посещении панели управления.",
+        "Done": "Сделанный",
+        "My Appointments": "Мои встречи",
+        "Widget settings": "Настройки виджета",
+        "Customize the appearance and default behavior of the widget.": "Настройте внешний вид и поведение виджета по умолчанию.",
+        "Default view": "Вид по умолчанию",
+        "Color scheme for the days with appointments": "Цветовая схема для дней встреч",
+        "standard": "стандартный",
+        "colorful": "красочный",
+        "Display options": "Параметры отображения",
+        "Show appointment counters": "Показать счетчики встреч",
+        "on": "на",
+        "off": "выключенный"
+    },
+    "pluralForm": "nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);"
 }

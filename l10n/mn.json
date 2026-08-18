@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Удахгүй болох үйл явдлууд",
-"Week": "Долоо хоног",
-"Month": "Сар",
-"Year": "Жил",
-"Back": "Буцах",
-"Forward": "Урагшаа",
-"Current": "Одоогийн",
-"Settings": "Тохиргоо",
-"Default view setting": "Өгөгдмөл харагдах тохиргоо",
-"Choose how the widget should open when you visit the dashboard.": "Хяналтын самбарт зочлохдоо виджет хэрхэн нээгдэхийг сонгоно уу.",
-"Done": "Дууслаа",
-"My Appointments": "Миний уулзалтууд"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Удахгүй болох үйл явдлууд",
+        "Week": "Долоо хоног",
+        "Month": "Сар",
+        "Year": "Жил",
+        "Back": "Буцах",
+        "Forward": "Урагшаа",
+        "Current": "Одоогийн",
+        "Settings": "Тохиргоо",
+        "Default view setting": "Өгөгдмөл харагдах тохиргоо",
+        "Choose how the widget should open when you visit the dashboard.": "Хяналтын самбарт зочлохдоо виджет хэрхэн нээгдэхийг сонгоно уу.",
+        "Done": "Дууслаа",
+        "My Appointments": "Миний уулзалтууд",
+        "Widget settings": "Виджетийн тохиргоо",
+        "Customize the appearance and default behavior of the widget.": "Виджетийн харагдах байдал болон өгөгдмөл байдлыг тохируулна уу.",
+        "Default view": "Өгөгдмөл харагдац",
+        "Color scheme for the days with appointments": "Уулзалттай өдрүүдийн өнгөний схем",
+        "standard": "стандарт",
+        "colorful": "өнгөлөг",
+        "Display options": "Дэлгэцийн сонголтууд",
+        "Show appointment counters": "Уулзалтын тоологчдыг харуулах",
+        "on": "дээр",
+        "off": "унтраах"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

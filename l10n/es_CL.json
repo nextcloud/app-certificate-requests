@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Próximos eventos",
-"Week": "Semana",
-"Month": "Mes",
-"Year": "Año",
-"Back": "Atrás",
-"Forward": "Adelante",
-"Current": "Actual",
-"Settings": "Ajustes",
-"Default view setting": "Configuración de vista predeterminada",
-"Choose how the widget should open when you visit the dashboard.": "Elija cómo debe abrirse el widget cuando visite el panel.",
-"Done": "Hecho",
-"My Appointments": "Mis citas"
-},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Próximos eventos",
+        "Week": "Semana",
+        "Month": "Mes",
+        "Year": "Año",
+        "Back": "Atrás",
+        "Forward": "Adelante",
+        "Current": "Actual",
+        "Settings": "Ajustes",
+        "Default view setting": "Configuración de vista predeterminada",
+        "Choose how the widget should open when you visit the dashboard.": "Elija cómo debe abrirse el widget cuando visite el panel.",
+        "Done": "Hecho",
+        "My Appointments": "Mis citas",
+        "Widget settings": "Configuración de widgets",
+        "Customize the appearance and default behavior of the widget.": "Personaliza la apariencia y el comportamiento predeterminado del widget.",
+        "Default view": "Vista predeterminada",
+        "Color scheme for the days with appointments": "Combinación de colores para los días con citas.",
+        "standard": "estándar",
+        "colorful": "vistoso",
+        "Display options": "Opciones de visualización",
+        "Show appointment counters": "Mostrar contadores de citas",
+        "on": "en",
+        "off": "apagado"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

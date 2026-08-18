@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Darvoudoù da zont",
-"Week": "Sizhun",
-"Month": "Miz",
-"Year": "Bloaz",
-"Back": "Kein",
-"Forward": "War-raok",
-"Current": "A vremañ",
-"Settings": "Arventennoù",
-"Default view setting": "Arventennoù ar gwel dre ziouer",
-"Choose how the widget should open when you visit the dashboard.": "Dibabit penaos e vo digoret ar widget pa vo gweladennet ar panell-stur.",
-"Done": "Graet",
-"My Appointments": "Ma emgavioù"
-},"pluralForm" :"nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));"
+{
+    "translations": {
+        "Upcoming events": "Darvoudoù da zont",
+        "Week": "Sizhun",
+        "Month": "Miz",
+        "Year": "Bloaz",
+        "Back": "Kein",
+        "Forward": "War-raok",
+        "Current": "A vremañ",
+        "Settings": "Arventennoù",
+        "Default view setting": "Arventennoù ar gwel dre ziouer",
+        "Choose how the widget should open when you visit the dashboard.": "Dibabit penaos e vo digoret ar widget pa vo gweladennet ar panell-stur.",
+        "Done": "Graet",
+        "My Appointments": "Ma emgavioù",
+        "Widget settings": "Arventennoù ar widget",
+        "Customize the appearance and default behavior of the widget.": "Personelaat neuz ha emzalc'h dre ziouer ar widget.",
+        "Default view": "Gwel dre ziouer",
+        "Color scheme for the days with appointments": "Livioù evit an deizioù gant emgavioù",
+        "standard": "standard",
+        "colorful": "livus",
+        "Display options": "Dibarzhioù diskouez",
+        "Show appointment counters": "Diskouez ar c'honterioù emgavioù",
+        "on": "war",
+        "off": "lazhet"
+    },
+    "pluralForm": "nplurals=5; plural=(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)));"
 }

@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Nadchádzajúce udalosti",
-"Week": "týždeň",
-"Month": "mesiac",
-"Year": "rok",
-"Back": "Späť",
-"Forward": "Vpred",
-"Current": "Aktuálne",
-"Settings": "Nastavenia",
-"Default view setting": "Predvolené nastavenie zobrazenia",
-"Choose how the widget should open when you visit the dashboard.": "Vyberte, ako sa má miniaplikácia otvárať pri návšteve hlavného panela.",
-"Done": "Hotovo",
-"My Appointments": "Moje stretnutia"
-},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Nadchádzajúce udalosti",
+        "Week": "týždeň",
+        "Month": "mesiac",
+        "Year": "rok",
+        "Back": "Späť",
+        "Forward": "Vpred",
+        "Current": "Aktuálne",
+        "Settings": "Nastavenia",
+        "Default view setting": "Predvolené nastavenie zobrazenia",
+        "Choose how the widget should open when you visit the dashboard.": "Vyberte, ako sa má miniaplikácia otvárať pri návšteve hlavného panela.",
+        "Done": "Hotovo",
+        "My Appointments": "Moje stretnutia",
+        "Widget settings": "Nastavenia widgetu",
+        "Customize the appearance and default behavior of the widget.": "Prispôsobte vzhľad a predvolené správanie miniaplikácie.",
+        "Default view": "Predvolené zobrazenie",
+        "Color scheme for the days with appointments": "Farebná schéma pre dni s termínmi",
+        "standard": "štandardné",
+        "colorful": "pestré",
+        "Display options": "Možnosti zobrazenia",
+        "Show appointment counters": "Zobraziť počítadlá schôdzok",
+        "on": "na",
+        "off": "vypnuté"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);"
 }

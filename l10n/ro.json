@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Evenimente viitoare",
-"Week": "Săptămână",
-"Month": "Lună",
-"Year": "An",
-"Back": "Spate",
-"Forward": "Redirecţiona",
-"Current": "Actual",
-"Settings": "Setări",
-"Default view setting": "Setare implicită de vizualizare",
-"Choose how the widget should open when you visit the dashboard.": "Alegeți cum ar trebui să se deschidă widgetul atunci când vizitați tabloul de bord.",
-"Done": "Făcut",
-"My Appointments": "Programările mele"
-},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Evenimente viitoare",
+        "Week": "Săptămână",
+        "Month": "Lună",
+        "Year": "An",
+        "Back": "Spate",
+        "Forward": "Redirecţiona",
+        "Current": "Actual",
+        "Settings": "Setări",
+        "Default view setting": "Setare implicită de vizualizare",
+        "Choose how the widget should open when you visit the dashboard.": "Alegeți cum ar trebui să se deschidă widgetul atunci când vizitați tabloul de bord.",
+        "Done": "Făcut",
+        "My Appointments": "Programările mele",
+        "Widget settings": "Setări widget",
+        "Customize the appearance and default behavior of the widget.": "Personalizați aspectul și comportamentul implicit al widget-ului.",
+        "Default view": "Vizualizare implicită",
+        "Color scheme for the days with appointments": "Schema de culori pentru zilele cu programare",
+        "standard": "standard",
+        "colorful": "colorat",
+        "Display options": "Opțiuni de afișare",
+        "Show appointment counters": "Afișați contoarele de întâlniri",
+        "on": "pe",
+        "off": "oprit"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2);"
 }

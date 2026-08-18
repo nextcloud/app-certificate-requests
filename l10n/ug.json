@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "ئالدىمىزدىكى ۋەقەلەر",
-"Week": "ھەپتە",
-"Month": "ئاي",
-"Year": "يىل",
-"Back": "قايتىش",
-"Forward": "ئالدىغا",
-"Current": "نۆۋەتتىكى",
-"Settings": "تەڭشەك",
-"Default view setting": "كۆڭۈلدىكى كۆرۈنۈش تەڭشىكى",
-"Choose how the widget should open when you visit the dashboard.": "باشقۇرۇش تاختىسىنى زىيارەت قىلغاندا كىچىك قورالنىڭ قانداق ئېچىلىدىغانلىقىنى تاللاڭ.",
-"Done": "تامام",
-"My Appointments": "مېنىڭ تەيىنلىشىم"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "ئالدىمىزدىكى ۋەقەلەر",
+        "Week": "ھەپتە",
+        "Month": "ئاي",
+        "Year": "يىل",
+        "Back": "قايتىش",
+        "Forward": "ئالدىغا",
+        "Current": "نۆۋەتتىكى",
+        "Settings": "تەڭشەك",
+        "Default view setting": "كۆڭۈلدىكى كۆرۈنۈش تەڭشىكى",
+        "Choose how the widget should open when you visit the dashboard.": "باشقۇرۇش تاختىسىنى زىيارەت قىلغاندا كىچىك قورالنىڭ قانداق ئېچىلىدىغانلىقىنى تاللاڭ.",
+        "Done": "تامام",
+        "My Appointments": "مېنىڭ تەيىنلىشىم",
+        "Widget settings": "كىچىك قورال تەڭشىكى",
+        "Customize the appearance and default behavior of the widget.": "كىچىك قورالنىڭ كۆرۈنۈشى ۋە سۈكۈتتىكى ھەرىكىتىنى خاسلاشتۇرۇڭ.",
+        "Default view": "كۆڭۈلدىكى كۆرۈنۈش",
+        "Color scheme for the days with appointments": "ئۇچرىشىش بىلەن كۈنلەرنىڭ رەڭ لايىھىسى",
+        "standard": "ئۆلچەملىك",
+        "colorful": "رەڭدار",
+        "Display options": "تاللاش تاللانمىلىرى",
+        "Show appointment counters": "تەيىنلەش ھېساباتىنى كۆرسەت",
+        "on": "on",
+        "off": "off"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

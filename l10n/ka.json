@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "მომავალი მოვლენები",
-"Week": "კვირა",
-"Month": "თვე",
-"Year": "წელიწადი",
-"Back": "უკან",
-"Forward": "წინ",
-"Current": "მიმდინარე",
-"Settings": "პარამეტრები",
-"Default view setting": "ნახვის ნაგულისხმევი პარამეტრი",
-"Choose how the widget should open when you visit the dashboard.": "აირჩიეთ, თუ როგორ უნდა გაიხსნას ვიჯეტი საინფორმაციო დაფის მონახულებისას.",
-"Done": "შესრულებულია",
-"My Appointments": "ჩემი დანიშვნები"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "მომავალი მოვლენები",
+        "Week": "კვირა",
+        "Month": "თვე",
+        "Year": "წელიწადი",
+        "Back": "უკან",
+        "Forward": "წინ",
+        "Current": "მიმდინარე",
+        "Settings": "პარამეტრები",
+        "Default view setting": "ნახვის ნაგულისხმევი პარამეტრი",
+        "Choose how the widget should open when you visit the dashboard.": "აირჩიეთ, თუ როგორ უნდა გაიხსნას ვიჯეტი საინფორმაციო დაფის მონახულებისას.",
+        "Done": "შესრულებულია",
+        "My Appointments": "ჩემი დანიშვნები",
+        "Widget settings": "ვიჯეტის პარამეტრები",
+        "Customize the appearance and default behavior of the widget.": "შეცვალეთ ვიჯეტის გარეგნობა და ნაგულისხმევი ქცევა.",
+        "Default view": "ნაგულისხმევი ხედი",
+        "Color scheme for the days with appointments": "ფერების სქემა დღეების დანიშვნებით",
+        "standard": "სტანდარტული",
+        "colorful": "ფერადი",
+        "Display options": "ჩვენების პარამეტრები",
+        "Show appointment counters": "შეხვედრის მრიცხველების ჩვენება",
+        "on": "on",
+        "off": "გამორთულია"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

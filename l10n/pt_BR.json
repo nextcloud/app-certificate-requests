@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Próximos eventos",
-"Week": "Semana",
-"Month": "Mês",
-"Year": "Ano",
-"Back": "Voltar",
-"Forward": "Avançar",
-"Current": "Atual",
-"Settings": "Configurações",
-"Default view setting": "Configuração de visualização padrão",
-"Choose how the widget should open when you visit the dashboard.": "Escolha como o widget deve abrir quando você visitar o painel.",
-"Done": "Feito",
-"My Appointments": "Meus compromissos"
-},"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "Próximos eventos",
+        "Week": "Semana",
+        "Month": "Mês",
+        "Year": "Ano",
+        "Back": "Voltar",
+        "Forward": "Avançar",
+        "Current": "Atual",
+        "Settings": "Configurações",
+        "Default view setting": "Configuração de visualização padrão",
+        "Choose how the widget should open when you visit the dashboard.": "Escolha como o widget deve abrir quando você visitar o painel.",
+        "Done": "Feito",
+        "My Appointments": "Meus compromissos",
+        "Widget settings": "Configurações de widget",
+        "Customize the appearance and default behavior of the widget.": "Personalize a aparência e o comportamento padrão do widget.",
+        "Default view": "Visualização padrão",
+        "Color scheme for the days with appointments": "Esquema de cores para os dias com compromissos",
+        "standard": "padrão",
+        "colorful": "colorido",
+        "Display options": "Opções de exibição",
+        "Show appointment counters": "Mostrar contadores de compromissos",
+        "on": "sobre",
+        "off": "desligado"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2);"
 }

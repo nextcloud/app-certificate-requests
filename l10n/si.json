@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "ඉදිරි සිදුවීම්",
-"Week": "සතිය",
-"Month": "මාසය",
-"Year": "වසර",
-"Back": "ආපසු",
-"Forward": "ඉදිරියට",
-"Current": "වත්මන්",
-"Settings": "සැකසීම්",
-"Default view setting": "පෙරනිමි දර්ශන සැකසීම",
-"Choose how the widget should open when you visit the dashboard.": "ඔබ උපකරණ පුවරුවට පිවිසෙන විට විජට් විවෘත විය යුතු ආකාරය තෝරන්න.",
-"Done": "කළා",
-"My Appointments": "මගේ පත්වීම්"
-},"pluralForm" :"nplurals=2; plural=n > 1;"
+{
+    "translations": {
+        "Upcoming events": "ඉදිරි සිදුවීම්",
+        "Week": "සතිය",
+        "Month": "මාසය",
+        "Year": "වසර",
+        "Back": "ආපසු",
+        "Forward": "ඉදිරියට",
+        "Current": "වත්මන්",
+        "Settings": "සැකසීම්",
+        "Default view setting": "පෙරනිමි දර්ශන සැකසීම",
+        "Choose how the widget should open when you visit the dashboard.": "ඔබ උපකරණ පුවරුවට පිවිසෙන විට විජට් විවෘත විය යුතු ආකාරය තෝරන්න.",
+        "Done": "කළා",
+        "My Appointments": "මගේ පත්වීම්",
+        "Widget settings": "විජට් සැකසුම්",
+        "Customize the appearance and default behavior of the widget.": "විජට් පෙනුම සහ පෙරනිමි හැසිරීම අභිරුචිකරණය කරන්න.",
+        "Default view": "පෙරනිමි දසුන",
+        "Color scheme for the days with appointments": "හමුවීම් සහිත දින සඳහා වර්ණ පටිපාටිය",
+        "standard": "සම්මතය",
+        "colorful": "වර්ණවත්",
+        "Display options": "සංදර්ශක විකල්ප",
+        "Show appointment counters": "හමුවීම් කවුන්ටර පෙන්වන්න",
+        "on": "මත",
+        "off": "අක්රිය"
+    },
+    "pluralForm": "nplurals=2; plural=n > 1;"
 }

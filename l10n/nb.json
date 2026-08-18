@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "Kommende arrangementer",
-"Week": "Uke",
-"Month": "Måned",
-"Year": "År",
-"Back": "Tilbake",
-"Forward": "Framover",
-"Current": "Nåværende",
-"Settings": "Innstillinger",
-"Default view setting": "Standard visningsinnstilling",
-"Choose how the widget should open when you visit the dashboard.": "Velg hvordan widgeten skal åpnes når du besøker dashbordet.",
-"Done": "Ferdig",
-"My Appointments": "Mine avtaler"
-},"pluralForm" :"nplurals=2; plural=n != 1;"
+{
+    "translations": {
+        "Upcoming events": "Kommende arrangementer",
+        "Week": "Uke",
+        "Month": "Måned",
+        "Year": "År",
+        "Back": "Tilbake",
+        "Forward": "Framover",
+        "Current": "Nåværende",
+        "Settings": "Innstillinger",
+        "Default view setting": "Standard visningsinnstilling",
+        "Choose how the widget should open when you visit the dashboard.": "Velg hvordan widgeten skal åpnes når du besøker dashbordet.",
+        "Done": "Ferdig",
+        "My Appointments": "Mine avtaler",
+        "Widget settings": "Widget-innstillinger",
+        "Customize the appearance and default behavior of the widget.": "Tilpass utseendet og standardoppførselen til widgeten.",
+        "Default view": "Standardvisning",
+        "Color scheme for the days with appointments": "Fargeskala for dagene med avtaler",
+        "standard": "standard",
+        "colorful": "fargerik",
+        "Display options": "Visningsalternativer",
+        "Show appointment counters": "Vis avtaleskranker",
+        "on": "på",
+        "off": "av"
+    },
+    "pluralForm": "nplurals=2; plural=n != 1;"
 }

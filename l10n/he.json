@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "אירועים קרובים",
-"Week": "שָׁבוּעַ",
-"Month": "חוֹדֶשׁ",
-"Year": "שָׁנָה",
-"Back": "בְּחֲזָרָה",
-"Forward": "קָדִימָה",
-"Current": "נוֹכְחִי",
-"Settings": "הגדרות",
-"Default view setting": "הגדרת ברירת מחדל לתצוגה",
-"Choose how the widget should open when you visit the dashboard.": "בחר כיצד ייפתח הווידג'ט בעת ביקור בלוח המחוונים.",
-"Done": "נַעֲשָׂה",
-"My Appointments": "הפגישות שלי"
-},"pluralForm" :"nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
+{
+    "translations": {
+        "Upcoming events": "אירועים קרובים",
+        "Week": "שָׁבוּעַ",
+        "Month": "חוֹדֶשׁ",
+        "Year": "שָׁנָה",
+        "Back": "בְּחֲזָרָה",
+        "Forward": "קָדִימָה",
+        "Current": "נוֹכְחִי",
+        "Settings": "הגדרות",
+        "Default view setting": "הגדרת ברירת מחדל לתצוגה",
+        "Choose how the widget should open when you visit the dashboard.": "בחר כיצד ייפתח הווידג'ט בעת ביקור בלוח המחוונים.",
+        "Done": "נַעֲשָׂה",
+        "My Appointments": "הפגישות שלי",
+        "Widget settings": "הגדרות ווידג'ט",
+        "Customize the appearance and default behavior of the widget.": "התאם אישית את המראה והתנהגות ברירת המחדל של הווידג'ט.",
+        "Default view": "תצוגת ברירת מחדל",
+        "Color scheme for the days with appointments": "ערכת צבעים לימים עם תורים",
+        "standard": "תֶקֶן",
+        "colorful": "צִבעוֹנִי",
+        "Display options": "אפשרויות תצוגה",
+        "Show appointment counters": "הצג דלפקי פגישות",
+        "on": "עַל",
+        "off": "כבוי"
+    },
+    "pluralForm": "nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);"
 }

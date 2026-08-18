@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "আসন্ন ঘটনা",
-"Week": "সপ্তাহ",
-"Month": "মাস",
-"Year": "বছর",
-"Back": "ফিরে",
-"Forward": "ফরোয়ার্ড",
-"Current": "কারেন্ট",
-"Settings": "সেটিংস",
-"Default view setting": "ডিফল্ট ভিউ সেটিং",
-"Choose how the widget should open when you visit the dashboard.": "আপনি যখন ড্যাশবোর্ডে যান তখন উইজেটটি কীভাবে খুলতে হবে তা চয়ন করুন৷",
-"Done": "সম্পন্ন",
-"My Appointments": "আমার অ্যাপয়েন্টমেন্ট"
-},"pluralForm" :"nplurals=2; plural=n > 1;"
+{
+    "translations": {
+        "Upcoming events": "আসন্ন ঘটনা",
+        "Week": "সপ্তাহ",
+        "Month": "মাস",
+        "Year": "বছর",
+        "Back": "ফিরে",
+        "Forward": "ফরোয়ার্ড",
+        "Current": "কারেন্ট",
+        "Settings": "সেটিংস",
+        "Default view setting": "ডিফল্ট ভিউ সেটিং",
+        "Choose how the widget should open when you visit the dashboard.": "আপনি যখন ড্যাশবোর্ডে যান তখন উইজেটটি কীভাবে খুলতে হবে তা চয়ন করুন৷",
+        "Done": "সম্পন্ন",
+        "My Appointments": "আমার অ্যাপয়েন্টমেন্ট",
+        "Widget settings": "উইজেট সেটিংস",
+        "Customize the appearance and default behavior of the widget.": "উইজেটের চেহারা এবং ডিফল্ট আচরণ কাস্টমাইজ করুন।",
+        "Default view": "ডিফল্ট ভিউ",
+        "Color scheme for the days with appointments": "অ্যাপয়েন্টমেন্ট সহ দিনের জন্য রঙের স্কিম",
+        "standard": "মান",
+        "colorful": "রঙিন",
+        "Display options": "প্রদর্শনের বিকল্প",
+        "Show appointment counters": "অ্যাপয়েন্টমেন্ট কাউন্টার দেখান",
+        "on": "অন",
+        "off": "বন্ধ"
+    },
+    "pluralForm": "nplurals=2; plural=n > 1;"
 }

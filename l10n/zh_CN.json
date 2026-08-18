@@ -1,15 +1,27 @@
-{ "translations": {
-    "Upcoming events": "即将举行的活动",
-"Week": "星期",
-"Month": "月",
-"Year": "年",
-"Back": "后退",
-"Forward": "向前",
-"Current": "当前的",
-"Settings": "设置",
-"Default view setting": "默认视图设置",
-"Choose how the widget should open when you visit the dashboard.": "选择当您访问仪表板时小部件应如何打开。",
-"Done": "完毕",
-"My Appointments": "我的预约"
-},"pluralForm" :"nplurals=1; plural=0;"
+{
+    "translations": {
+        "Upcoming events": "即将举行的活动",
+        "Week": "星期",
+        "Month": "月",
+        "Year": "年",
+        "Back": "后退",
+        "Forward": "向前",
+        "Current": "当前的",
+        "Settings": "设置",
+        "Default view setting": "默认视图设置",
+        "Choose how the widget should open when you visit the dashboard.": "选择当您访问仪表板时小部件应如何打开。",
+        "Done": "完毕",
+        "My Appointments": "我的预约",
+        "Widget settings": "小部件设置",
+        "Customize the appearance and default behavior of the widget.": "自定义小部件的外观和默认行为。",
+        "Default view": "默认视图",
+        "Color scheme for the days with appointments": "约会日的配色方案",
+        "standard": "标准",
+        "colorful": "丰富多彩的",
+        "Display options": "显示选项",
+        "Show appointment counters": "显示预约柜台",
+        "on": "在",
+        "off": "离开"
+    },
+    "pluralForm": "nplurals=1; plural=0;"
 }
