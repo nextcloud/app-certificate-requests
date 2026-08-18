@@ -21,6 +21,7 @@ A modern and compact calendar widget for your Nextcloud Dashboard that gives you
 
 <details>
   <summary><b>Show me</b></summary>
+
   ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png)​
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png)​
