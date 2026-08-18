@@ -21,15 +21,27 @@ A modern and compact calendar widget for your Nextcloud Dashboard that gives you
 
 <details>
   <summary><b>Show me</b></summary>
-
-  ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png)​
-
-![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png)​
-
-![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png)​
-
-![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png)​
-
+  <p align="center">
+  <b>Weekly view, standard theme, without counter:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/weekly-standard-without.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/weekly-standard-without.png">
+  <br><br>
+  <b>Monthly view, standard theme, without counter:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/monthly-standard-without.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/monthly-standard-without.png">
+  <br><br>
+  <b>Yearly view, standard theme, without counter:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-standard-without.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-standard-without.png">
+  <br><br>
+  <b>Yearly view, standard theme, with counter:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-standard-with.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-standard-with.png">
+  <br><br>
+  <b>Yearly view, colorful theme, with counter:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-colorful-with.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/yearly-colorful-with.png">
+  <br><br>
+  <b>Hover over a day with appointments:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/hover-appointments.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/hover-appointments.png">
+  <br><br>
+  <b>Widget settings:</b><br>
+  <img src="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/settings.png" alt="https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/settings.png">
 </details>
 
 ## ⚙️ Usage
