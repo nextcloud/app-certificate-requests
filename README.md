@@ -6,7 +6,17 @@ Keep an eye on your appointments.
 
 ### Compact Calendar Widget is a Nextcloud Dashboard Widget
 
-Displays upcoming appointments filtered by week, month, or year in the Nextcloud dashboard through mini-calendar views.
+A modern and compact calendar widget for your Nextcloud Dashboard that gives you a quick overview of your upcoming appointments.
+
+- 📅 **Month & Year View:** Switch seamlessly between a monthly grid and a full-year overview.
+- 🎨 **Custom Color Schemes:** Choose between a sleek standard theme and a colorful heat map style.
+- 🚦 **Event Heatmap:** Visual indicators show you at a glance how busy your days are based on appointment count.
+- 💬 **Interactive Popovers:** Hover over any day to instantly view detailed event info, times, and locations.
+- 📱 **Mobile Friendly:** Optimized touch interaction for mobile devices.
+- ⚙️ **Configurable Settings:** Easily customize views and themes directly from the widget.
+
+> ℹ️ **Note:** This widget works best when used alongside the official **Nextcloud Calendar** app to unlock its full potential and display all your events smoothly.
+
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png)​
 
