@@ -6,7 +6,7 @@
 
 A modern and compact calendar widget for your Nextcloud Dashboard that gives you a quick overview of your upcoming appointments.
 
-- 📅 **Month & Year View:** Switch seamlessly between a monthly grid and a full-year overview.
+- 📅 **Week, Month & Year View:** Switch seamlessly between a monthly grid and a full-year overview.
 - 🎨 **Custom Color Schemes:** Choose between a sleek standard theme and a colorful heat map style.
 - 🚦 **Event Heatmap:** Visual indicators show you at a glance how busy your days are based on appointment count.
 - 💬 **Interactive Popovers:** Hover over any day to instantly view detailed event info, times, and locations.
