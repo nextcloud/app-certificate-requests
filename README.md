@@ -17,14 +17,19 @@ A modern and compact calendar widget for your Nextcloud Dashboard that gives you
 
 > ℹ️ **Note:** This widget works best when used alongside the official **Nextcloud Calendar** app to unlock its full potential and display all your events smoothly.
 
+## 👀 Some screenshots
 
-![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png)​
+<details>
+  <summary><b>Show me</b></summary>
+  ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-week.png)​
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-month.png)​
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-year.png)​
 
 ![https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png](https://raw.githubusercontent.com/zomtec2311/compact_calendar_widget/refs/heads/main/compact_calendar_widget-hover.png)​
+
+</details>
 
 ## ⚙️ Usage
 
