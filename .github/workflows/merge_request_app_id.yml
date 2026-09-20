@@ -44,6 +44,20 @@ jobs:
             app_id="${csr%%/*}"
             csr_filename="${csr#*/}"
 
+            if (( ${#app_id} > 32 )); then
+              echo "::error file=$csr::App ID '$app_id' is longer than 32 characters."
+              echo "App IDs must be no longer than 32 characters."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            if [[ ! "$app_id" =~ ^[a-z]+[a-z0-9_]*[a-z0-9]$ ]]; then
+              echo "::error file=$csr::App ID '$app_id' has an invalid format."
+              echo "App IDs must start with a lowercase letter, end with a lowercase letter or digit, and contain only lowercase letters, digits, and underscores."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
             if [[ "$csr_filename" != "$app_id.csr" ]]; then
               echo "::error file=$csr::CSR path must be <app_id>/<app_id>.csr."
               echo "Expected path: $app_id/$app_id.csr"
