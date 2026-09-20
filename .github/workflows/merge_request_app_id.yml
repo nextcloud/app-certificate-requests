@@ -19,8 +19,13 @@ jobs:
       - name: Get changed CSR files
         id: changed_csrs
         run: |
-          files=$(git diff --name-only --diff-filter=AMR ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.csr$' | xargs)
-          echo "csr_files=$files" >> $GITHUB_OUTPUT
+          files=$(git diff --name-only --diff-filter=AMR \
+            "${{ github.event.pull_request.base.sha }}" \
+            "${{ github.sha }}" |
+            grep '\.csr$' |
+            xargs)
+
+          echo "csr_files=$files" >> "$GITHUB_OUTPUT"
 
       - name: Validate each CSR
         if: ${{ steps.changed_csrs.outputs.csr_files }}
@@ -28,18 +33,42 @@ jobs:
           set -euo pipefail
 
           for csr in ${{ steps.changed_csrs.outputs.csr_files }}; do
-            filename=$(echo $csr | awk -F "[/.]" '{ print $2 }')
-            if ! subject=$(openssl req -in "$csr" -noout -subject 2>&1); then
-              echo "::error file=$csr::Unable to read the CSR. Make sure '$csr' is a valid PEM-encoded certificate signing request."
-              echo "OpenSSL output: $subject"
+            if [[ "$csr" != */* ]]; then
+              echo "::error file=$csr::CSR is in the wrong location."
+              echo "The certificate request must be stored as <app_id>/<app_id>.csr."
+              echo "For example: saml_provider/saml_provider.csr"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
               exit 1
             fi
 
-            if ! echo "$subject" | awk -v app_id="$filename" -F "[= ]" '{ if ($5 == app_id) { exit 0 } else { exit 1 }}'; then
-              echo "::error file=$csr::CSR Common Name does not match the expected app ID '$filename'."
-              echo "The CSR subject is: $subject"
-              echo "The Common Name (CN) in the CSR must match the app ID used in appinfo/info.xml."
-              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate for instructions."
+            app_id="${csr%%/*}"
+            csr_filename="${csr#*/}"
+
+            if [[ "$csr_filename" != "$app_id.csr" ]]; then
+              echo "::error file=$csr::CSR path must be <app_id>/<app_id>.csr."
+              echo "Expected path: $app_id/$app_id.csr"
+              echo "Actual path: $csr"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            if ! subject=$(openssl req -in "$csr" -noout -subject -nameopt RFC2253 2>&1); then
+              echo "::error file=$csr::OpenSSL could not parse this certificate signing request."
+              echo "OpenSSL output: $subject"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            common_name=$(printf '%s\n' "$subject" |
+              sed -n 's/^subject=.*CN=\([^,]*\).*$/\1/p')
+
+            if [[ "$common_name" != "$app_id" ]]; then
+              echo "::error file=$csr::The CSR Common Name does not match the expected app ID."
+              echo "Expected Common Name: $app_id"
+              echo "Detected Common Name: ${common_name:-<missing>}"
+              echo "The CSR filename, directory, and Common Name must use the app ID from appinfo/info.xml."
+              echo "App IDs may contain only lowercase ASCII characters and underscores."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
               exit 1
             fi
           done
