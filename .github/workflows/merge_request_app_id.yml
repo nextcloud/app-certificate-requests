@@ -17,22 +17,35 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Get changed CSR files
-        id: changed_csrs
-        run: |
-          files=$(git diff --name-only --diff-filter=AMR \
-            "${{ github.event.pull_request.base.sha }}" \
-            "${{ github.sha }}" |
-            grep '\.csr$' |
-            xargs)
-
-          echo "csr_files=$files" >> "$GITHUB_OUTPUT"
-
-      - name: Validate each CSR
-        if: ${{ steps.changed_csrs.outputs.csr_files }}
+        shell: bash
         run: |
           set -euo pipefail
 
-          for csr in ${{ steps.changed_csrs.outputs.csr_files }}; do
+          if ! git diff --name-only --diff-filter=AMR -z \
+              "${{ github.event.pull_request.base.sha }}" \
+              "${{ github.sha }}" > all-changed-files; then
+            echo "Failed to determine changed files."
+            exit 1
+          fi
+
+          if grep -zE '\.csr$' all-changed-files > changed-csrs; then
+            echo "Found changed CSR files."
+          else
+            echo "No added, modified, or renamed CSR files found."
+            : > changed-csrs
+          fi
+
+      - name: Validate each CSR
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ ! -s changed-csrs ]]; then
+            echo "No CSR files require validation."
+            exit 0
+          fi
+
+          while IFS= read -r -d '' csr; do
             if [[ "$csr" != */* ]]; then
               echo "::error file=$csr::CSR is in the wrong location."
               echo "The certificate request must be stored as <app_id>/<app_id>.csr."
@@ -81,8 +94,8 @@ jobs:
               echo "Expected Common Name: $app_id"
               echo "Detected Common Name: ${common_name:-<missing>}"
               echo "The CSR filename, directory, and Common Name must use the app ID from appinfo/info.xml."
-              echo "App IDs may contain only lowercase ASCII characters and underscores."
+              echo "App IDs must start with a lowercase letter, end with a lowercase letter or digit, contain only lowercase letters, digits, and underscores, and be no longer than 32 characters."
               echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
               exit 1
             fi
-          done
+          done < changed-csrs
