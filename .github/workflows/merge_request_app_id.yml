@@ -17,16 +17,85 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Get changed CSR files
-        id: changed_csrs
+        shell: bash
         run: |
-          files=$(git diff --name-only --diff-filter=AMR ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.csr$' | xargs)
-          echo "csr_files=$files" >> $GITHUB_OUTPUT
+          set -euo pipefail
+
+          if ! git diff --name-only --diff-filter=AMR -z \
+              "${{ github.event.pull_request.base.sha }}" \
+              "${{ github.sha }}" > all-changed-files; then
+            echo "Failed to determine changed files."
+            exit 1
+          fi
+
+          if grep -zE '\.csr$' all-changed-files > changed-csrs; then
+            echo "Found changed CSR files."
+          else
+            echo "No added, modified, or renamed CSR files found."
+            : > changed-csrs
+          fi
 
       - name: Validate each CSR
-        if: ${{ steps.changed_csrs.outputs.csr_files }}
+        shell: bash
         run: |
-          for csr in ${{ steps.changed_csrs.outputs.csr_files }}; do
-            filename=$(echo $csr | awk -F "[/.]" '{ print $2 }')
-            subject=$(cat $csr | openssl req -noout -subject)
-            echo $subject | awk -v app_id="$filename" -F "[= ]" '{ if ($5==app_id) { exit 0 } else { exit 1 }}'
-          done
+          set -euo pipefail
+
+          if [[ ! -s changed-csrs ]]; then
+            echo "No CSR files require validation."
+            exit 0
+          fi
+
+          while IFS= read -r -d '' csr; do
+            if [[ "$csr" != */* ]]; then
+              echo "::error file=$csr::CSR is in the wrong location."
+              echo "The certificate request must be stored as <app_id>/<app_id>.csr."
+              echo "For example: saml_provider/saml_provider.csr"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            app_id="${csr%%/*}"
+            csr_filename="${csr#*/}"
+
+            if (( ${#app_id} > 32 )); then
+              echo "::error file=$csr::App ID '$app_id' is longer than 32 characters."
+              echo "App IDs must be no longer than 32 characters."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            if [[ ! "$app_id" =~ ^[a-z]+[a-z0-9_]*[a-z0-9]$ ]]; then
+              echo "::error file=$csr::App ID '$app_id' has an invalid format."
+              echo "App IDs must start with a lowercase letter, end with a lowercase letter or digit, and contain only lowercase letters, digits, and underscores."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            if [[ "$csr_filename" != "$app_id.csr" ]]; then
+              echo "::error file=$csr::CSR path must be <app_id>/<app_id>.csr."
+              echo "Expected path: $app_id/$app_id.csr"
+              echo "Actual path: $csr"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            if ! subject=$(openssl req -in "$csr" -noout -subject -nameopt RFC2253 2>&1); then
+              echo "::error file=$csr::OpenSSL could not parse this certificate signing request."
+              echo "OpenSSL output: $subject"
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+
+            common_name=$(printf '%s\n' "$subject" |
+              sed -n 's/^subject=.*CN=\([^,]*\).*$/\1/p')
+
+            if [[ "$common_name" != "$app_id" ]]; then
+              echo "::error file=$csr::The CSR Common Name does not match the expected app ID."
+              echo "Expected Common Name: $app_id"
+              echo "Detected Common Name: ${common_name:-<missing>}"
+              echo "The CSR filename, directory, and Common Name must use the app ID from appinfo/info.xml."
+              echo "App IDs must start with a lowercase letter, end with a lowercase letter or digit, contain only lowercase letters, digits, and underscores, and be no longer than 32 characters."
+              echo "See https://nextcloudappstore.readthedocs.io/en/latest/developer.html#obtaining-a-certificate"
+              exit 1
+            fi
+          done < changed-csrs
