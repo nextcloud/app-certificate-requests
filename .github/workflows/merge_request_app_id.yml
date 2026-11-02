@@ -71,6 +71,12 @@ jobs:
               exit 1
             fi
 
+            if [[ "${app_id,,}" == *nextcloud* ]]; then
+              echo "::error file=$csr::App ID '$app_id' must not include Nextcloud trademark per the guidelines."
+              echo "See https://nextcloud.com/trademarks/"
+              exit 1
+            fi
+
             if [[ "$csr_filename" != "$app_id.csr" ]]; then
               echo "::error file=$csr::CSR path must be <app_id>/<app_id>.csr."
               echo "Expected path: $app_id/$app_id.csr"
