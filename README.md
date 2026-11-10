@@ -6,6 +6,7 @@ When you open the pull request:
 
 - Keep the whole [PR template](.github/pull_request_template.md). Fill it in and tick the boxes that apply, without removing anything.
 - Sign off every commit yourself, as described below.
+- Make sure all automated checks pass, including the DCO check. No certificate is generated until they do.
 
 You don't need to mention anybody. People who can help here are subscribed to this repo and will get back to you.
 
